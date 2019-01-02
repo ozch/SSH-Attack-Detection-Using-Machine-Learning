@@ -1,0 +1,962 @@
+Dec 11 18:43:32 Xerminal gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=osamac uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=osamac
+Dec 11 18:43:37 Xerminal gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=osamac uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=osamac
+Dec 11 18:43:42 Xerminal dbus[832]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=823 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.24" (uid=121 pid=1065 comm="/usr/bin/gnome-shell ")
+Dec 11 18:43:42 Xerminal dbus[832]: message repeated 17 times: [ [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=823 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.24" (uid=121 pid=1065 comm="/usr/bin/gnome-shell ")]
+Dec 11 18:43:48 Xerminal gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=osamac
+Dec 11 18:43:54 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 11 18:48:48 Xerminal gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=osamac uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=osamac
+Dec 11 18:48:53 Xerminal gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=osamac uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=osamac
+Dec 11 18:48:59 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 11 18:54:08 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 11 18:54:08 Xerminal pkexec[26135]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Dec 11 18:54:20 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 11 19:10:41 Xerminal gnome-keyring-daemon[1912]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 11 19:10:42 Xerminal gnome-keyring-daemon[1912]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 11 19:10:46 Xerminal gnome-keyring-daemon[1912]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 11 19:13:54 Xerminal sudo:   osamac : TTY=unknown ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/python3.6 /home/osamac/Program Files/pycharm-2017.1.4/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging pygtail
+Dec 11 19:13:54 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:13:58 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:17:01 Xerminal CRON[28347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 11 19:17:01 Xerminal CRON[28347]: pam_unix(cron:session): session closed for user root
+Dec 11 19:18:19 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/python3 ssh_traffic.py
+Dec 11 19:18:19 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:18:19 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:18:28 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/python3 ssh_traffic.py
+Dec 11 19:18:28 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:18:29 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:19:14 Xerminal gnome-keyring-daemon[1912]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 11 19:19:17 Xerminal gnome-keyring-daemon[1912]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 11 19:24:49 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/python3 ssh_traffic.py
+Dec 11 19:24:49 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:24:49 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:25:04 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/python3 ssh_traffic.py
+Dec 11 19:25:04 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:25:05 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:25:07 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/python3 ssh_traffic.py
+Dec 11 19:25:07 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:25:07 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:25:09 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/python3 ssh_traffic.py
+Dec 11 19:25:09 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:25:09 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:32:37 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/python3 ssh_traffic.py
+Dec 11 19:32:37 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:33:23 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:34:38 Xerminal sudo:   osamac : TTY=pts/3 ; PWD=/home/osamac ; USER=root ; COMMAND=/usr/bin/apt-get install openssh-server
+Dec 11 19:34:38 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:35:05 Xerminal useradd[30639]: new user: name=sshd, UID=124, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Dec 11 19:35:05 Xerminal usermod[30645]: change user 'sshd' password
+Dec 11 19:35:06 Xerminal chage[30650]: changed password expiry for sshd
+Dec 11 19:35:07 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 19:35:07 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 19:35:10 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:35:16 Xerminal sudo:   osamac : TTY=pts/3 ; PWD=/home/osamac ; USER=root ; COMMAND=/bin/nano /etc/ssh/sshd_config
+Dec 11 19:35:16 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:35:36 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:35:48 Xerminal su[30861]: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=osamac rhost=  user=root
+Dec 11 19:35:50 Xerminal su[30861]: pam_authenticate: Authentication failure
+Dec 11 19:35:50 Xerminal su[30861]: FAILED su for root by osamac
+Dec 11 19:35:50 Xerminal su[30861]: - /dev/pts/3 osamac:root
+Dec 11 19:35:57 Xerminal su[30862]: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=osamac rhost=  user=root
+Dec 11 19:35:59 Xerminal su[30862]: pam_authenticate: Authentication failure
+Dec 11 19:35:59 Xerminal su[30862]: FAILED su for root by osamac
+Dec 11 19:35:59 Xerminal su[30862]: - /dev/pts/3 osamac:root
+Dec 11 19:36:08 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 11 19:36:08 Xerminal pkexec[30870]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Dec 11 19:36:47 Xerminal sudo:   osamac : TTY=pts/3 ; PWD=/home/osamac ; USER=root ; COMMAND=/bin/bash
+Dec 11 19:36:47 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:37:44 Xerminal sudo:     root : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/nano /etc/ssh/sshd_config
+Dec 11 19:37:44 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:38:14 Xerminal sudo:     root : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/sshd_config
+Dec 11 19:38:14 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 19:38:52 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 19:39:01 Xerminal sudo: message repeated 2 times: [ pam_unix(sudo:session): session closed for user root]
+Dec 11 19:39:27 Xerminal sshd[31072]: Accepted password for osamac from 127.0.0.1 port 49602 ssh2
+Dec 11 19:39:27 Xerminal sshd[31072]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 19:39:27 Xerminal systemd-logind[823]: New session 5 of user osamac.
+Dec 11 19:40:29 Xerminal sshd[31215]: Accepted password for osamac from 127.0.0.1 port 49604 ssh2
+Dec 11 19:40:29 Xerminal sshd[31215]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 19:40:29 Xerminal systemd-logind[823]: New session 6 of user osamac.
+Dec 11 19:41:01 Xerminal sshd[31281]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 11 19:41:03 Xerminal sshd[31281]: Failed password for root from 127.0.0.1 port 49606 ssh2
+Dec 11 19:41:42 Xerminal sshd[31281]: Failed password for root from 127.0.0.1 port 49606 ssh2
+Dec 11 19:41:43 Xerminal sshd[31281]: Failed password for root from 127.0.0.1 port 49606 ssh2
+Dec 11 19:41:43 Xerminal sshd[31281]: Connection closed by authenticating user root 127.0.0.1 port 49606 [preauth]
+Dec 11 19:41:52 Xerminal sshd[31305]: Accepted password for osamac from 127.0.0.1 port 49608 ssh2
+Dec 11 19:41:52 Xerminal sshd[31305]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 19:41:52 Xerminal systemd-logind[823]: New session 7 of user osamac.
+Dec 11 19:42:37 Xerminal sshd[31378]: Accepted password for osamac from 192.168.1.9 port 45904 ssh2
+Dec 11 19:42:37 Xerminal sshd[31378]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 19:42:37 Xerminal systemd-logind[823]: New session 8 of user osamac.
+Dec 11 19:43:57 Xerminal sshd[31524]: Accepted password for osamac from 192.168.1.9 port 45962 ssh2
+Dec 11 19:43:57 Xerminal sshd[31524]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 19:43:57 Xerminal systemd-logind[823]: New session 9 of user osamac.
+Dec 11 19:43:57 Xerminal sshd[31573]: Received disconnect from 192.168.1.9 port 45962:11: disconnected by user
+Dec 11 19:43:57 Xerminal sshd[31573]: Disconnected from user osamac 192.168.1.9 port 45962
+Dec 11 19:43:57 Xerminal sshd[31524]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 19:43:57 Xerminal systemd-logind[823]: Removed session 9.
+Dec 11 19:44:07 Xerminal sshd[31577]: Accepted password for osamac from 192.168.1.9 port 45964 ssh2
+Dec 11 19:44:07 Xerminal sshd[31577]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 19:44:07 Xerminal systemd-logind[823]: New session 10 of user osamac.
+Dec 11 19:44:33 Xerminal sshd[31768]: Accepted password for osamac from 127.0.0.1 port 49674 ssh2
+Dec 11 19:44:33 Xerminal sshd[31768]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 19:44:33 Xerminal systemd-logind[823]: New session 11 of user osamac.
+Dec 11 19:44:41 Xerminal sshd[31768]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 19:44:41 Xerminal systemd-logind[823]: Removed session 11.
+Dec 11 19:48:47 Xerminal sudo:   osamac : TTY=pts/8 ; PWD=/home/osamac ; USER=root ; COMMAND=/bin/bash
+Dec 11 19:48:47 Xerminal sudo: pam_unix(sudo:session): session opened for user root by osamac(uid=0)
+Dec 11 19:53:24 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 19:53:24 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 19:53:24 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 19:53:34 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 19:53:34 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 19:53:34 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 20:01:02 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 20:01:02 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 20:01:02 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 20:01:12 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 20:01:12 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 20:01:12 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 20:02:02 Xerminal sshd[603]: Accepted password for osamac from 192.168.1.253 port 43818 ssh2
+Dec 11 20:02:02 Xerminal sshd[603]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 20:02:02 Xerminal systemd-logind[823]: New session 12 of user osamac.
+Dec 11 20:05:50 Xerminal sshd[31148]: Received disconnect from 127.0.0.1 port 49602:11: disconnected by user
+Dec 11 20:05:50 Xerminal sshd[31148]: Disconnected from user osamac 127.0.0.1 port 49602
+Dec 11 20:05:50 Xerminal sshd[31072]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 20:05:50 Xerminal sshd[31264]: Received disconnect from 127.0.0.1 port 49604:11: disconnected by user
+Dec 11 20:05:50 Xerminal sshd[31264]: Disconnected from user osamac 127.0.0.1 port 49604
+Dec 11 20:05:50 Xerminal sshd[31215]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 20:05:50 Xerminal systemd-logind[823]: Removed session 5.
+Dec 11 20:05:50 Xerminal sshd[31354]: Received disconnect from 127.0.0.1 port 49608:11: disconnected by user
+Dec 11 20:05:50 Xerminal sshd[31354]: Disconnected from user osamac 127.0.0.1 port 49608
+Dec 11 20:05:50 Xerminal sshd[31305]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 20:05:50 Xerminal systemd-logind[823]: Removed session 6.
+Dec 11 20:05:50 Xerminal systemd-logind[823]: Removed session 7.
+Dec 11 20:07:56 Xerminal sshd[1100]: Accepted password for osamac from 192.168.1.253 port 44032 ssh2
+Dec 11 20:07:56 Xerminal sshd[1100]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 20:07:56 Xerminal systemd-logind[823]: New session 13 of user osamac.
+Dec 11 20:08:48 Xerminal sshd[1218]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=osamac
+Dec 11 20:08:50 Xerminal sshd[1218]: Failed password for osamac from 192.168.1.253 port 44066 ssh2
+Dec 11 20:08:59 Xerminal sshd[1218]: Failed password for osamac from 192.168.1.253 port 44066 ssh2
+Dec 11 20:09:04 Xerminal sshd[1218]: Failed password for osamac from 192.168.1.253 port 44066 ssh2
+Dec 11 20:09:04 Xerminal sshd[1218]: Connection closed by authenticating user osamac 192.168.1.253 port 44066 [preauth]
+Dec 11 20:09:04 Xerminal sshd[1218]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=osamac
+Dec 11 20:17:01 Xerminal CRON[1461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 11 20:17:01 Xerminal CRON[1461]: pam_unix(cron:session): session closed for user root
+Dec 11 20:18:15 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 20:18:15 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 20:18:15 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 20:18:25 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 20:18:25 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 20:18:25 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 20:19:25 Xerminal sshd[1619]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=root
+Dec 11 20:19:27 Xerminal sshd[1619]: Failed password for root from 192.168.1.253 port 44234 ssh2
+Dec 11 20:19:43 Xerminal sshd[1619]: message repeated 2 times: [ Failed password for root from 192.168.1.253 port 44234 ssh2]
+Dec 11 20:19:43 Xerminal sshd[1619]: Connection closed by authenticating user root 192.168.1.253 port 44234 [preauth]
+Dec 11 20:19:43 Xerminal sshd[1619]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=root
+Dec 11 20:42:14 Xerminal sshd[2280]: Invalid user gta from 192.168.1.253 port 44244
+Dec 11 20:46:58 Xerminal sshd[2403]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=root
+Dec 11 20:46:59 Xerminal sshd[2403]: Failed password for root from 192.168.1.253 port 44246 ssh2
+Dec 11 20:47:05 Xerminal sshd[2403]: message repeated 2 times: [ Failed password for root from 192.168.1.253 port 44246 ssh2]
+Dec 11 20:47:05 Xerminal sshd[2403]: Connection closed by authenticating user root 192.168.1.253 port 44246 [preauth]
+Dec 11 20:47:05 Xerminal sshd[2403]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=root
+Dec 11 20:50:24 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 11 20:50:24 Xerminal pkexec[2457]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 450]
+Dec 11 20:57:31 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 11 20:57:31 Xerminal pkexec[2493]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 457]
+Dec 11 20:57:40 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 11 21:08:32 Xerminal sshd[670]: Received disconnect from 192.168.1.253 port 43818:11: disconnected by user
+Dec 11 21:08:32 Xerminal sshd[670]: Disconnected from user osamac 192.168.1.253 port 43818
+Dec 11 21:08:32 Xerminal sshd[603]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:08:32 Xerminal systemd-logind[823]: Removed session 12.
+Dec 11 21:08:37 Xerminal sshd[1155]: Received disconnect from 192.168.1.253 port 44032:11: disconnected by user
+Dec 11 21:08:37 Xerminal sshd[1155]: Disconnected from user osamac 192.168.1.253 port 44032
+Dec 11 21:08:37 Xerminal sshd[1100]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:08:37 Xerminal systemd-logind[823]: Removed session 13.
+Dec 11 21:08:39 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 21:08:39 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 21:08:39 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 21:08:49 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 21:08:49 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 21:08:49 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 21:13:05 Xerminal sshd[3012]: Accepted password for osamac from 127.0.0.1 port 50624 ssh2
+Dec 11 21:13:05 Xerminal sshd[3012]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:13:05 Xerminal systemd-logind[823]: New session 15 of user osamac.
+Dec 11 21:14:15 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 21:14:15 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 21:14:15 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 21:14:25 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 21:14:25 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 21:14:25 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 21:14:52 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 21:14:53 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 21:14:53 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 21:15:03 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 21:15:03 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 21:15:03 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 21:15:47 Xerminal sshd[3358]: Invalid user gta from 192.168.1.253 port 44408
+Dec 11 21:16:13 Xerminal sshd[3358]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 21:16:13 Xerminal sshd[3358]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253
+Dec 11 21:16:15 Xerminal sshd[3358]: Failed password for invalid user gta from 192.168.1.253 port 44408 ssh2
+Dec 11 21:16:22 Xerminal sshd[3358]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 21:16:25 Xerminal sshd[3358]: Failed password for invalid user gta from 192.168.1.253 port 44408 ssh2
+Dec 11 21:17:01 Xerminal CRON[3377]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 11 21:17:01 Xerminal CRON[3377]: pam_unix(cron:session): session closed for user root
+Dec 11 21:20:42 Xerminal sshd[3505]: Invalid user gta from 192.168.1.253 port 44422
+Dec 11 21:20:53 Xerminal sshd[3505]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 21:20:53 Xerminal sshd[3505]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253
+Dec 11 21:20:56 Xerminal sshd[3505]: Failed password for invalid user gta from 192.168.1.253 port 44422 ssh2
+Dec 11 21:21:02 Xerminal sshd[3084]: Received disconnect from 127.0.0.1 port 50624:11: disconnected by user
+Dec 11 21:21:02 Xerminal sshd[3084]: Disconnected from user osamac 127.0.0.1 port 50624
+Dec 11 21:21:02 Xerminal sshd[3012]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:21:02 Xerminal sshd[3505]: Failed password for invalid user gta from 192.168.1.253 port 44422 ssh2
+Dec 11 21:21:02 Xerminal sshd[3505]: Connection reset by invalid user gta 192.168.1.253 port 44422 [preauth]
+Dec 11 21:21:02 Xerminal systemd-logind[823]: Removed session 15.
+Dec 11 21:22:17 Xerminal sshd[3570]: Accepted password for osamac from 127.0.0.1 port 50648 ssh2
+Dec 11 21:22:17 Xerminal sshd[3570]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:22:17 Xerminal systemd-logind[823]: New session 17 of user osamac.
+Dec 11 21:24:39 Xerminal sshd[3684]: Accepted password for osamac from 127.0.0.1 port 50650 ssh2
+Dec 11 21:24:39 Xerminal sshd[3684]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:24:39 Xerminal systemd-logind[823]: New session 18 of user osamac.
+Dec 11 21:24:52 Xerminal sshd[3756]: Accepted password for osamac from 127.0.0.1 port 50652 ssh2
+Dec 11 21:24:52 Xerminal sshd[3756]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:24:52 Xerminal systemd-logind[823]: New session 19 of user osamac.
+Dec 11 21:25:01 Xerminal sshd[3620]: Received disconnect from 127.0.0.1 port 50648:11: disconnected by user
+Dec 11 21:25:01 Xerminal sshd[3620]: Disconnected from user osamac 127.0.0.1 port 50648
+Dec 11 21:25:01 Xerminal sshd[3570]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:25:01 Xerminal sshd[3733]: Received disconnect from 127.0.0.1 port 50650:11: disconnected by user
+Dec 11 21:25:01 Xerminal sshd[3733]: Disconnected from user osamac 127.0.0.1 port 50650
+Dec 11 21:25:01 Xerminal sshd[3684]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:25:01 Xerminal systemd-logind[823]: Removed session 17.
+Dec 11 21:25:01 Xerminal sshd[3805]: Received disconnect from 127.0.0.1 port 50652:11: disconnected by user
+Dec 11 21:25:01 Xerminal sshd[3805]: Disconnected from user osamac 127.0.0.1 port 50652
+Dec 11 21:25:01 Xerminal sshd[3756]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:25:01 Xerminal systemd-logind[823]: Removed session 18.
+Dec 11 21:25:01 Xerminal systemd-logind[823]: Removed session 19.
+Dec 11 21:26:52 Xerminal sshd[3898]: Accepted password for osamac from 127.0.0.1 port 50654 ssh2
+Dec 11 21:26:52 Xerminal sshd[3898]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:26:52 Xerminal systemd-logind[823]: New session 20 of user osamac.
+Dec 11 21:28:02 Xerminal sshd[4001]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 11 21:28:04 Xerminal sshd[4001]: Failed password for osamac from 127.0.0.1 port 50656 ssh2
+Dec 11 21:32:41 Xerminal sshd[4169]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 11 21:32:43 Xerminal sshd[4169]: Failed password for osamac from 127.0.0.1 port 50666 ssh2
+Dec 11 21:34:12 Xerminal sshd[4169]: message repeated 2 times: [ Failed password for osamac from 127.0.0.1 port 50666 ssh2]
+Dec 11 21:34:12 Xerminal sshd[4169]: Connection closed by authenticating user osamac 127.0.0.1 port 50666 [preauth]
+Dec 11 21:34:12 Xerminal sshd[4169]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 11 21:34:31 Xerminal sshd[4218]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 11 21:34:33 Xerminal sshd[4218]: Failed password for osamac from 127.0.0.1 port 50672 ssh2
+Dec 11 21:35:32 Xerminal sshd[4218]: message repeated 2 times: [ Failed password for osamac from 127.0.0.1 port 50672 ssh2]
+Dec 11 21:35:32 Xerminal sshd[4218]: Connection closed by authenticating user osamac 127.0.0.1 port 50672 [preauth]
+Dec 11 21:35:32 Xerminal sshd[4218]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 11 21:46:33 Xerminal sshd[4600]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 11 21:46:34 Xerminal sshd[4600]: Failed password for root from 127.0.0.1 port 50764 ssh2
+Dec 11 21:46:58 Xerminal sshd[4600]: message repeated 2 times: [ Failed password for root from 127.0.0.1 port 50764 ssh2]
+Dec 11 21:46:58 Xerminal sshd[4600]: Connection closed by authenticating user root 127.0.0.1 port 50764 [preauth]
+Dec 11 21:46:58 Xerminal sshd[4600]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 11 21:52:09 Xerminal sshd[4783]: Accepted password for osamac from 127.0.0.1 port 50774 ssh2
+Dec 11 21:52:09 Xerminal sshd[4783]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:52:09 Xerminal systemd-logind[823]: New session 21 of user osamac.
+Dec 11 21:54:31 Xerminal sshd[4913]: Accepted password for osamac from 127.0.0.1 port 50776 ssh2
+Dec 11 21:54:31 Xerminal sshd[4913]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:54:31 Xerminal systemd-logind[823]: New session 22 of user osamac.
+Dec 11 21:55:04 Xerminal sshd[4994]: Accepted password for osamac from 127.0.0.1 port 50778 ssh2
+Dec 11 21:55:04 Xerminal sshd[4994]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:55:04 Xerminal systemd-logind[823]: New session 23 of user osamac.
+Dec 11 21:55:33 Xerminal sshd[5074]: Accepted password for osamac from 127.0.0.1 port 50780 ssh2
+Dec 11 21:55:33 Xerminal sshd[5074]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 21:55:33 Xerminal systemd-logind[823]: New session 24 of user osamac.
+Dec 11 21:56:18 Xerminal sshd[5140]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=root
+Dec 11 21:56:20 Xerminal sshd[5140]: Failed password for root from 192.168.1.253 port 44558 ssh2
+Dec 11 21:56:57 Xerminal sshd[5140]: Connection closed by authenticating user root 192.168.1.253 port 44558 [preauth]
+Dec 11 21:57:17 Xerminal sshd[3948]: Received disconnect from 127.0.0.1 port 50654:11: disconnected by user
+Dec 11 21:57:17 Xerminal sshd[3948]: Disconnected from user osamac 127.0.0.1 port 50654
+Dec 11 21:57:17 Xerminal sshd[3898]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:57:17 Xerminal sshd[4832]: Received disconnect from 127.0.0.1 port 50774:11: disconnected by user
+Dec 11 21:57:17 Xerminal sshd[4832]: Disconnected from user osamac 127.0.0.1 port 50774
+Dec 11 21:57:17 Xerminal sshd[4783]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:57:17 Xerminal systemd-logind[823]: Removed session 20.
+Dec 11 21:57:17 Xerminal sshd[4962]: Received disconnect from 127.0.0.1 port 50776:11: disconnected by user
+Dec 11 21:57:17 Xerminal sshd[4962]: Disconnected from user osamac 127.0.0.1 port 50776
+Dec 11 21:57:17 Xerminal sshd[4913]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:57:17 Xerminal systemd-logind[823]: Removed session 21.
+Dec 11 21:57:17 Xerminal sshd[5043]: Received disconnect from 127.0.0.1 port 50778:11: disconnected by user
+Dec 11 21:57:17 Xerminal sshd[5043]: Disconnected from user osamac 127.0.0.1 port 50778
+Dec 11 21:57:17 Xerminal sshd[4994]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:57:17 Xerminal systemd-logind[823]: Removed session 22.
+Dec 11 21:57:17 Xerminal sshd[5123]: Received disconnect from 127.0.0.1 port 50780:11: disconnected by user
+Dec 11 21:57:17 Xerminal sshd[5123]: Disconnected from user osamac 127.0.0.1 port 50780
+Dec 11 21:57:17 Xerminal sshd[5074]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 21:57:17 Xerminal systemd-logind[823]: Removed session 23.
+Dec 11 21:57:17 Xerminal systemd-logind[823]: Removed session 24.
+Dec 11 21:57:34 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 11 21:57:34 Xerminal pkexec[5191]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 450]
+Dec 11 22:00:20 Xerminal sshd[31577]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 22:00:20 Xerminal sshd[31378]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 22:00:20 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 22:00:20 Xerminal systemd-logind[823]: Removed session 10.
+Dec 11 22:00:20 Xerminal systemd-logind[823]: Removed session 8.
+Dec 11 22:42:11 Xerminal dbus[832]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.80" (uid=1000 pid=2073 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.2" (uid=0 pid=857 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 11 22:42:11 Xerminal dbus[832]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.80" (uid=1000 pid=2073 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.2" (uid=0 pid=857 comm="/usr/lib/bluetooth/bluetoothd ")]
+Dec 11 22:42:11 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 11 22:42:11 Xerminal pkexec[5376]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 457]
+Dec 11 22:42:11 Xerminal systemd-logind[823]: Operation 'sleep' finished.
+Dec 11 22:42:16 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 11 22:42:26 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 22:42:26 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 22:42:26 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 22:42:36 Xerminal sshd[30724]: Received SIGHUP; restarting.
+Dec 11 22:42:36 Xerminal sshd[30724]: Server listening on 0.0.0.0 port 22.
+Dec 11 22:42:36 Xerminal sshd[30724]: Server listening on :: port 22.
+Dec 11 22:43:23 Xerminal sudo:   osamac : TTY=pts/2 ; PWD=/home/osamac ; USER=root ; COMMAND=/usr/bin/apt install git
+Dec 11 22:43:23 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 11 22:43:39 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 11 22:44:46 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 11 22:44:46 Xerminal pkexec[7116]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Dec 11 22:48:56 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 11 23:17:01 Xerminal CRON[8312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 11 23:17:01 Xerminal CRON[8312]: pam_unix(cron:session): session closed for user root
+Dec 11 23:21:24 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 11 23:30:15 Xerminal sshd[8965]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=root
+Dec 11 23:30:17 Xerminal sshd[8965]: Failed password for root from 192.168.1.253 port 45158 ssh2
+Dec 11 23:30:40 Xerminal sshd[8965]: Failed password for root from 192.168.1.253 port 45158 ssh2
+Dec 11 23:30:40 Xerminal sshd[8965]: Connection reset by authenticating user root 192.168.1.253 port 45158 [preauth]
+Dec 11 23:44:51 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 11 23:47:10 Xerminal sshd[9576]: Accepted password for osamac from 127.0.0.1 port 51420 ssh2
+Dec 11 23:47:10 Xerminal sshd[9576]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 23:47:10 Xerminal systemd-logind[823]: New session 26 of user osamac.
+Dec 11 23:48:46 Xerminal sshd[9714]: Failed password for root from 192.168.1.253 port 45198 ssh2
+Dec 11 23:48:47 Xerminal sshd[9714]: Failed password for root from 192.168.1.253 port 45198 ssh2
+Dec 11 23:48:47 Xerminal sshd[9714]: Connection closed by authenticating user root 192.168.1.253 port 45198 [preauth]
+Dec 11 23:49:19 Xerminal sshd[9721]: Accepted password for osamac from 192.168.1.253 port 45200 ssh2
+Dec 11 23:49:19 Xerminal sshd[9721]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 23:49:19 Xerminal systemd-logind[823]: New session 27 of user osamac.
+Dec 11 23:49:45 Xerminal sshd[9785]: Accepted password for osamac from 192.168.1.253 port 45202 ssh2
+Dec 11 23:49:45 Xerminal sshd[9785]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 11 23:49:45 Xerminal systemd-logind[823]: New session 28 of user osamac.
+Dec 11 23:49:58 Xerminal sshd[9651]: Received disconnect from 127.0.0.1 port 51420:11: disconnected by user
+Dec 11 23:49:58 Xerminal sshd[9651]: Disconnected from user osamac 127.0.0.1 port 51420
+Dec 11 23:49:58 Xerminal sshd[9576]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 23:49:58 Xerminal sshd[9770]: Received disconnect from 192.168.1.253 port 45200:11: disconnected by user
+Dec 11 23:49:58 Xerminal sshd[9770]: Disconnected from user osamac 192.168.1.253 port 45200
+Dec 11 23:49:58 Xerminal sshd[9721]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 23:49:58 Xerminal systemd-logind[823]: Removed session 26.
+Dec 11 23:49:58 Xerminal sshd[9834]: Received disconnect from 192.168.1.253 port 45202:11: disconnected by user
+Dec 11 23:49:58 Xerminal sshd[9834]: Disconnected from user osamac 192.168.1.253 port 45202
+Dec 11 23:49:58 Xerminal sshd[9785]: pam_unix(sshd:session): session closed for user osamac
+Dec 11 23:49:58 Xerminal systemd-logind[823]: Removed session 27.
+Dec 11 23:49:58 Xerminal systemd-logind[823]: Removed session 28.
+Dec 11 23:54:17 Xerminal gnome-keyring-daemon[1912]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 11 23:54:21 Xerminal gnome-keyring-daemon[1912]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 12 00:03:56 Xerminal sshd[10617]: Accepted password for osamac from 192.168.1.253 port 45834 ssh2
+Dec 12 00:03:56 Xerminal sshd[10617]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:03:56 Xerminal systemd-logind[823]: New session 29 of user osamac.
+Dec 12 00:04:03 Xerminal sshd[10681]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=osamac
+Dec 12 00:04:05 Xerminal sshd[10681]: Failed password for osamac from 192.168.1.253 port 45836 ssh2
+Dec 12 00:04:08 Xerminal sshd[10681]: message repeated 2 times: [ Failed password for osamac from 192.168.1.253 port 45836 ssh2]
+Dec 12 00:04:08 Xerminal sshd[10681]: Connection closed by authenticating user osamac 192.168.1.253 port 45836 [preauth]
+Dec 12 00:04:08 Xerminal sshd[10681]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253  user=osamac
+Dec 12 00:04:14 Xerminal sshd[10667]: Received disconnect from 192.168.1.253 port 45834:11: disconnected by user
+Dec 12 00:04:14 Xerminal sshd[10667]: Disconnected from user osamac 192.168.1.253 port 45834
+Dec 12 00:04:14 Xerminal sshd[10617]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:04:14 Xerminal systemd-logind[823]: Removed session 29.
+Dec 12 00:17:01 Xerminal CRON[11510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 12 00:17:01 Xerminal CRON[11510]: pam_unix(cron:session): session closed for user root
+Dec 12 00:37:08 Xerminal sshd[12226]: Accepted password for osamac from 192.168.1.253 port 46518 ssh2
+Dec 12 00:37:08 Xerminal sshd[12226]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:37:08 Xerminal systemd-logind[823]: New session 31 of user osamac.
+Dec 12 00:37:21 Xerminal sshd[12325]: Accepted password for osamac from 192.168.1.253 port 46598 ssh2
+Dec 12 00:37:21 Xerminal sshd[12325]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:37:21 Xerminal systemd-logind[823]: New session 32 of user osamac.
+Dec 12 00:38:32 Xerminal sshd[12443]: Accepted password for osamac from 192.168.1.253 port 46610 ssh2
+Dec 12 00:38:32 Xerminal sshd[12443]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:38:32 Xerminal systemd-logind[823]: New session 33 of user osamac.
+Dec 12 00:38:44 Xerminal sshd[12506]: Accepted password for osamac from 192.168.1.253 port 46612 ssh2
+Dec 12 00:38:44 Xerminal sshd[12506]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:38:44 Xerminal systemd-logind[823]: New session 34 of user osamac.
+Dec 12 00:39:01 Xerminal sshd[12570]: Accepted password for osamac from 192.168.1.253 port 46614 ssh2
+Dec 12 00:39:01 Xerminal sshd[12570]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:39:01 Xerminal systemd-logind[823]: New session 35 of user osamac.
+Dec 12 00:40:04 Xerminal sshd[12648]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 12 00:40:06 Xerminal sshd[12648]: Failed password for osamac from 127.0.0.1 port 52848 ssh2
+Dec 12 00:40:15 Xerminal sshd[12648]: message repeated 2 times: [ Failed password for osamac from 127.0.0.1 port 52848 ssh2]
+Dec 12 00:40:15 Xerminal sshd[12648]: Connection closed by authenticating user osamac 127.0.0.1 port 52848 [preauth]
+Dec 12 00:40:15 Xerminal sshd[12648]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 12 00:41:36 Xerminal sshd[12883]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 12 00:41:38 Xerminal sshd[12883]: Failed password for osamac from 127.0.0.1 port 52892 ssh2
+Dec 12 00:41:42 Xerminal sshd[12883]: message repeated 2 times: [ Failed password for osamac from 127.0.0.1 port 52892 ssh2]
+Dec 12 00:41:42 Xerminal sshd[12883]: Connection closed by authenticating user osamac 127.0.0.1 port 52892 [preauth]
+Dec 12 00:41:42 Xerminal sshd[12883]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 12 00:42:01 Xerminal sshd[12889]: Accepted password for osamac from 192.168.1.253 port 46670 ssh2
+Dec 12 00:42:01 Xerminal sshd[12889]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:42:01 Xerminal systemd-logind[823]: New session 36 of user osamac.
+Dec 12 00:43:03 Xerminal sshd[12998]: Accepted password for osamac from 192.168.1.253 port 46672 ssh2
+Dec 12 00:43:03 Xerminal sshd[12998]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:43:03 Xerminal systemd-logind[823]: New session 37 of user osamac.
+Dec 12 00:43:59 Xerminal sshd[13086]: Accepted password for osamac from 127.0.0.1 port 52898 ssh2
+Dec 12 00:43:59 Xerminal sshd[13086]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:43:59 Xerminal systemd-logind[823]: New session 38 of user osamac.
+Dec 12 00:44:13 Xerminal sshd[12276]: Received disconnect from 192.168.1.253 port 46518:11: disconnected by user
+Dec 12 00:44:13 Xerminal sshd[12276]: Disconnected from user osamac 192.168.1.253 port 46518
+Dec 12 00:44:13 Xerminal sshd[12226]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:44:13 Xerminal sshd[12374]: Received disconnect from 192.168.1.253 port 46598:11: disconnected by user
+Dec 12 00:44:13 Xerminal sshd[12374]: Disconnected from user osamac 192.168.1.253 port 46598
+Dec 12 00:44:13 Xerminal sshd[12325]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:44:13 Xerminal systemd-logind[823]: Removed session 31.
+Dec 12 00:44:13 Xerminal sshd[12492]: Received disconnect from 192.168.1.253 port 46610:11: disconnected by user
+Dec 12 00:44:13 Xerminal sshd[12492]: Disconnected from user osamac 192.168.1.253 port 46610
+Dec 12 00:44:13 Xerminal sshd[12443]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:44:13 Xerminal systemd-logind[823]: Removed session 32.
+Dec 12 00:44:13 Xerminal sshd[12556]: Received disconnect from 192.168.1.253 port 46612:11: disconnected by user
+Dec 12 00:44:13 Xerminal sshd[12556]: Disconnected from user osamac 192.168.1.253 port 46612
+Dec 12 00:44:13 Xerminal sshd[12506]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:44:13 Xerminal systemd-logind[823]: Removed session 33.
+Dec 12 00:44:13 Xerminal sshd[12619]: Received disconnect from 192.168.1.253 port 46614:11: disconnected by user
+Dec 12 00:44:13 Xerminal sshd[12619]: Disconnected from user osamac 192.168.1.253 port 46614
+Dec 12 00:44:13 Xerminal sshd[12570]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:44:13 Xerminal systemd-logind[823]: Removed session 34.
+Dec 12 00:44:13 Xerminal sshd[12939]: Received disconnect from 192.168.1.253 port 46670:11: disconnected by user
+Dec 12 00:44:13 Xerminal sshd[12939]: Disconnected from user osamac 192.168.1.253 port 46670
+Dec 12 00:44:13 Xerminal sshd[12889]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:44:13 Xerminal systemd-logind[823]: Removed session 35.
+Dec 12 00:44:13 Xerminal sshd[13047]: Received disconnect from 192.168.1.253 port 46672:11: disconnected by user
+Dec 12 00:44:13 Xerminal sshd[13047]: Disconnected from user osamac 192.168.1.253 port 46672
+Dec 12 00:44:13 Xerminal sshd[12998]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:44:13 Xerminal systemd-logind[823]: Removed session 36.
+Dec 12 00:44:13 Xerminal sshd[13135]: Received disconnect from 127.0.0.1 port 52898:11: disconnected by user
+Dec 12 00:44:13 Xerminal sshd[13135]: Disconnected from user osamac 127.0.0.1 port 52898
+Dec 12 00:44:13 Xerminal sshd[13086]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:44:13 Xerminal systemd-logind[823]: Removed session 37.
+Dec 12 00:44:13 Xerminal systemd-logind[823]: Removed session 38.
+Dec 12 00:44:52 Xerminal sshd[13207]: Accepted password for osamac from 127.0.0.1 port 52900 ssh2
+Dec 12 00:44:52 Xerminal sshd[13207]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:44:52 Xerminal systemd-logind[823]: New session 39 of user osamac.
+Dec 12 00:45:08 Xerminal sshd[13271]: Accepted password for osamac from 192.168.1.253 port 46678 ssh2
+Dec 12 00:45:08 Xerminal sshd[13271]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:45:08 Xerminal systemd-logind[823]: New session 40 of user osamac.
+Dec 12 00:45:31 Xerminal sshd[13334]: Accepted password for osamac from 192.168.1.253 port 46680 ssh2
+Dec 12 00:45:31 Xerminal sshd[13334]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:45:31 Xerminal systemd-logind[823]: New session 41 of user osamac.
+Dec 12 00:45:57 Xerminal sshd[13399]: Accepted password for osamac from 127.0.0.1 port 52906 ssh2
+Dec 12 00:45:57 Xerminal sshd[13399]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:45:57 Xerminal systemd-logind[823]: New session 42 of user osamac.
+Dec 12 00:52:54 Xerminal sshd[13809]: Accepted password for osamac from 127.0.0.1 port 53238 ssh2
+Dec 12 00:52:54 Xerminal sshd[13809]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 12 00:52:54 Xerminal systemd-logind[823]: New session 43 of user osamac.
+Dec 12 00:53:18 Xerminal sshd[13257]: Received disconnect from 127.0.0.1 port 52900:11: disconnected by user
+Dec 12 00:53:18 Xerminal sshd[13257]: Disconnected from user osamac 127.0.0.1 port 52900
+Dec 12 00:53:18 Xerminal sshd[13207]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:53:18 Xerminal sshd[13320]: Received disconnect from 192.168.1.253 port 46678:11: disconnected by user
+Dec 12 00:53:18 Xerminal sshd[13320]: Disconnected from user osamac 192.168.1.253 port 46678
+Dec 12 00:53:18 Xerminal sshd[13271]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:53:18 Xerminal systemd-logind[823]: Removed session 39.
+Dec 12 00:53:18 Xerminal sshd[13383]: Received disconnect from 192.168.1.253 port 46680:11: disconnected by user
+Dec 12 00:53:18 Xerminal sshd[13383]: Disconnected from user osamac 192.168.1.253 port 46680
+Dec 12 00:53:18 Xerminal sshd[13334]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:53:18 Xerminal systemd-logind[823]: Removed session 40.
+Dec 12 00:53:18 Xerminal sshd[13448]: Received disconnect from 127.0.0.1 port 52906:11: disconnected by user
+Dec 12 00:53:18 Xerminal sshd[13448]: Disconnected from user osamac 127.0.0.1 port 52906
+Dec 12 00:53:18 Xerminal sshd[13399]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:53:18 Xerminal systemd-logind[823]: Removed session 41.
+Dec 12 00:53:18 Xerminal sshd[13880]: Received disconnect from 127.0.0.1 port 53238:11: disconnected by user
+Dec 12 00:53:18 Xerminal sshd[13880]: Disconnected from user osamac 127.0.0.1 port 53238
+Dec 12 00:53:18 Xerminal sshd[13809]: pam_unix(sshd:session): session closed for user osamac
+Dec 12 00:53:18 Xerminal systemd-logind[823]: Removed session 42.
+Dec 12 00:53:18 Xerminal systemd-logind[823]: Removed session 43.
+Dec 12 01:14:31 Xerminal systemd-logind[823]: System is rebooting.
+Dec 12 01:14:31 Xerminal polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.76, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 13 15:11:21 Xerminal systemd-logind[812]: New seat seat0.
+Dec 13 15:11:21 Xerminal systemd-logind[812]: Watching system buttons on /dev/input/event3 (Power Button)
+Dec 13 15:11:21 Xerminal systemd-logind[812]: Watching system buttons on /dev/input/event1 (Power Button)
+Dec 13 15:11:21 Xerminal systemd-logind[812]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Dec 13 15:11:21 Xerminal systemd-logind[812]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Dec 13 15:11:22 Xerminal systemd-logind[812]: Watching system buttons on /dev/input/event8 (Intel HID events)
+Dec 13 15:11:22 Xerminal systemd-logind[812]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+Dec 13 15:11:27 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 15:11:27 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 15:11:30 Xerminal gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Dec 13 15:11:30 Xerminal systemd-logind[812]: New session c1 of user gdm.
+Dec 13 15:11:31 Xerminal systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Dec 13 15:11:34 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.25" (uid=121 pid=1069 comm="/usr/bin/gnome-shell ")
+Dec 13 15:11:36 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.25" (uid=121 pid=1069 comm="/usr/bin/gnome-shell ")
+Dec 13 15:11:36 Xerminal dbus[827]: message repeated 17 times: [ [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.25" (uid=121 pid=1069 comm="/usr/bin/gnome-shell ")]
+Dec 13 15:11:46 Xerminal polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 13 15:11:56 Xerminal gdm-password]: pam_unix(gdm-password:session): session opened for user osamac by (uid=0)
+Dec 13 15:11:56 Xerminal systemd-logind[812]: New session 2 of user osamac.
+Dec 13 15:11:56 Xerminal systemd: pam_unix(systemd-user:session): session opened for user osamac by (uid=0)
+Dec 13 15:11:56 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 13 15:11:57 Xerminal dbus[827]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="error", sender=":1.1" (uid=0 pid=812 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.69" (uid=1000 pid=1287 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")]
+Dec 13 15:12:02 Xerminal polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 13 15:13:12 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 15:13:12 Xerminal pkexec[1872]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Dec 13 15:17:01 Xerminal CRON[2158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 13 15:17:01 Xerminal CRON[2158]: pam_unix(cron:session): session closed for user root
+Dec 13 15:17:51 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 15:17:51 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 15:17:51 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 15:18:01 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 15:18:01 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 15:18:01 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 15:19:10 Xerminal sshd[2278]: Accepted password for osamac from 127.0.0.1 port 36940 ssh2
+Dec 13 15:19:10 Xerminal sshd[2278]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 13 15:19:10 Xerminal systemd-logind[812]: New session 5 of user osamac.
+Dec 13 15:21:27 Xerminal sshd[2674]: Accepted password for osamac from 127.0.0.1 port 36964 ssh2
+Dec 13 15:21:27 Xerminal sshd[2674]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 13 15:21:27 Xerminal systemd-logind[812]: New session 6 of user osamac.
+Dec 13 15:21:48 Xerminal sshd[2741]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 15:21:51 Xerminal sshd[2741]: Failed password for osamac from 127.0.0.1 port 36968 ssh2
+Dec 13 15:21:51 Xerminal sshd[2741]: Failed password for osamac from 127.0.0.1 port 36968 ssh2
+Dec 13 15:22:06 Xerminal sshd[2741]: Failed password for osamac from 127.0.0.1 port 36968 ssh2
+Dec 13 15:22:06 Xerminal sshd[2741]: Connection closed by authenticating user osamac 127.0.0.1 port 36968 [preauth]
+Dec 13 15:22:06 Xerminal sshd[2741]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 15:22:12 Xerminal sshd[2355]: Received disconnect from 127.0.0.1 port 36940:11: disconnected by user
+Dec 13 15:22:12 Xerminal sshd[2355]: Disconnected from user osamac 127.0.0.1 port 36940
+Dec 13 15:22:12 Xerminal sshd[2278]: pam_unix(sshd:session): session closed for user osamac
+Dec 13 15:22:12 Xerminal sshd[2726]: Received disconnect from 127.0.0.1 port 36964:11: disconnected by user
+Dec 13 15:22:12 Xerminal sshd[2726]: Disconnected from user osamac 127.0.0.1 port 36964
+Dec 13 15:22:12 Xerminal sshd[2674]: pam_unix(sshd:session): session closed for user osamac
+Dec 13 15:22:12 Xerminal systemd-logind[812]: Removed session 5.
+Dec 13 15:22:12 Xerminal systemd-logind[812]: Removed session 6.
+Dec 13 15:23:03 Xerminal sshd[2878]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 15:23:05 Xerminal sshd[2878]: Failed password for osamac from 127.0.0.1 port 36970 ssh2
+Dec 13 15:23:14 Xerminal sshd[2878]: Failed password for osamac from 127.0.0.1 port 36970 ssh2
+Dec 13 15:23:23 Xerminal sshd[2878]: Failed password for osamac from 127.0.0.1 port 36970 ssh2
+Dec 13 15:23:23 Xerminal sshd[2878]: Connection closed by authenticating user osamac 127.0.0.1 port 36970 [preauth]
+Dec 13 15:23:23 Xerminal sshd[2878]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 15:23:43 Xerminal sshd[2882]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 15:23:45 Xerminal sshd[2882]: Failed password for osamac from 127.0.0.1 port 36972 ssh2
+Dec 13 15:23:56 Xerminal sshd[2882]: Failed password for osamac from 127.0.0.1 port 36972 ssh2
+Dec 13 15:23:58 Xerminal sshd[2882]: Connection closed by authenticating user osamac 127.0.0.1 port 36972 [preauth]
+Dec 13 15:23:58 Xerminal sshd[2882]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 15:24:07 Xerminal sshd[2886]: Accepted password for osamac from 127.0.0.1 port 36974 ssh2
+Dec 13 15:24:07 Xerminal sshd[2886]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 13 15:24:07 Xerminal systemd-logind[812]: New session 7 of user osamac.
+Dec 13 15:24:34 Xerminal sshd[2937]: Received disconnect from 127.0.0.1 port 36974:11: disconnected by user
+Dec 13 15:24:34 Xerminal sshd[2937]: Disconnected from user osamac 127.0.0.1 port 36974
+Dec 13 15:24:34 Xerminal sshd[2886]: pam_unix(sshd:session): session closed for user osamac
+Dec 13 15:24:34 Xerminal systemd-logind[812]: Removed session 7.
+Dec 13 15:26:47 Xerminal gnome-keyring-daemon[1281]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 13 15:26:48 Xerminal gnome-keyring-daemon[1281]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 13 15:26:53 Xerminal gnome-keyring-daemon[1281]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 13 15:28:09 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 15:28:09 Xerminal pkexec[3561]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Dec 13 15:29:43 Xerminal gnome-keyring-daemon[1281]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 13 15:29:45 Xerminal gnome-keyring-daemon[1281]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 13 15:45:14 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 15:45:14 Xerminal pkexec[4522]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 450]
+Dec 13 15:46:39 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 15:46:39 Xerminal pkexec[4528]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 457]
+Dec 13 15:46:42 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 13 15:55:40 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 15:55:40 Xerminal pkexec[4761]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 450]
+Dec 13 15:58:25 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 15:58:25 Xerminal pkexec[4774]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 457]
+Dec 13 15:59:02 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 13 16:10:32 Xerminal gnome-keyring-daemon[1281]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 13 16:10:33 Xerminal gnome-keyring-daemon[1281]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 13 16:15:37 Xerminal sudo:   osamac : TTY=unknown ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/python3.6 /home/osamac/Program Files/pycharm-2017.1.4/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging tldextract
+Dec 13 16:15:37 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 13 16:15:50 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 16:17:01 Xerminal CRON[5748]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 13 16:17:01 Xerminal CRON[5748]: pam_unix(cron:session): session closed for user root
+Dec 13 16:17:21 Xerminal sudo:   osamac : TTY=unknown ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/python3.6 /home/osamac/Program Files/pycharm-2017.1.4/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging1 regex
+Dec 13 16:17:21 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 13 16:17:27 Xerminal sudo:   osamac : TTY=unknown ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/python3.6 /home/osamac/Program Files/pycharm-2017.1.4/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging2 BeautifulSoup
+Dec 13 16:17:27 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 13 16:17:33 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 16:17:42 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 16:22:32 Xerminal sshd[6019]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 16:22:34 Xerminal sshd[6019]: Failed password for osamac from 127.0.0.1 port 37616 ssh2
+Dec 13 16:23:35 Xerminal sshd[6019]: message repeated 2 times: [ Failed password for osamac from 127.0.0.1 port 37616 ssh2]
+Dec 13 16:23:35 Xerminal sshd[6019]: Connection closed by authenticating user osamac 127.0.0.1 port 37616 [preauth]
+Dec 13 16:23:35 Xerminal sshd[6019]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 16:23:40 Xerminal sshd[6027]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 16:23:42 Xerminal sshd[6027]: Failed password for osamac from 127.0.0.1 port 37618 ssh2
+Dec 13 16:23:45 Xerminal sshd[6027]: Failed password for osamac from 127.0.0.1 port 37618 ssh2
+Dec 13 16:26:09 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 16:26:09 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 16:26:09 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 16:26:19 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 16:26:19 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 16:26:19 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 16:27:21 Xerminal sshd[6334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.97.13.247  user=osamac
+Dec 13 16:27:22 Xerminal sshd[6334]: Failed password for osamac from 10.97.13.247 port 59788 ssh2
+Dec 13 16:28:32 Xerminal sshd[6334]: Failed password for osamac from 10.97.13.247 port 59788 ssh2
+Dec 13 16:28:37 Xerminal sshd[6334]: Connection closed by authenticating user osamac 10.97.13.247 port 59788 [preauth]
+Dec 13 16:28:37 Xerminal sshd[6334]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.97.13.247  user=osamac
+Dec 13 16:29:14 Xerminal sshd[6385]: Invalid user admin from 10.97.13.247 port 59792
+Dec 13 16:29:19 Xerminal sshd[6385]: Connection closed by invalid user admin 10.97.13.247 port 59792 [preauth]
+Dec 13 16:29:23 Xerminal sshd[6390]: Invalid user adminx from 10.97.13.247 port 59794
+Dec 13 16:29:33 Xerminal sshd[6390]: Connection closed by invalid user adminx 10.97.13.247 port 59794 [preauth]
+Dec 13 16:29:40 Xerminal sshd[6395]: Invalid user adminx from 127.0.0.1 port 37644
+Dec 13 16:29:46 Xerminal sshd[6395]: Connection closed by invalid user adminx 127.0.0.1 port 37644 [preauth]
+Dec 13 16:29:51 Xerminal sshd[6399]: Invalid user gta from 127.0.0.1 port 37646
+Dec 13 16:29:54 Xerminal sshd[6399]: Connection closed by invalid user gta 127.0.0.1 port 37646 [preauth]
+Dec 13 16:30:12 Xerminal sshd[6436]: Invalid user gta from 127.0.0.1 port 37648
+Dec 13 16:30:35 Xerminal sshd[6436]: Connection closed by invalid user gta 127.0.0.1 port 37648 [preauth]
+Dec 13 16:30:47 Xerminal sshd[6449]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.97.13.247  user=root
+Dec 13 16:30:50 Xerminal sshd[6449]: Failed password for root from 10.97.13.247 port 59802 ssh2
+Dec 13 16:31:04 Xerminal sshd[6449]: Failed password for root from 10.97.13.247 port 59802 ssh2
+Dec 13 16:31:10 Xerminal sshd[6449]: Failed password for root from 10.97.13.247 port 59802 ssh2
+Dec 13 16:31:10 Xerminal sshd[6449]: Connection closed by authenticating user root 10.97.13.247 port 59802 [preauth]
+Dec 13 16:31:10 Xerminal sshd[6449]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.97.13.247  user=root
+Dec 13 16:31:28 Xerminal sshd[6456]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 13 16:31:30 Xerminal sshd[6456]: Failed password for osamac from 127.0.0.1 port 37652 ssh2
+Dec 13 16:31:37 Xerminal sshd[6456]: Accepted password for osamac from 127.0.0.1 port 37652 ssh2
+Dec 13 16:31:37 Xerminal sshd[6456]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 13 16:31:37 Xerminal systemd-logind[812]: New session 9 of user osamac.
+Dec 13 16:32:41 Xerminal sshd[6531]: Received disconnect from 127.0.0.1 port 37652:11: disconnected by user
+Dec 13 16:32:41 Xerminal sshd[6531]: Disconnected from user osamac 127.0.0.1 port 37652
+Dec 13 16:32:41 Xerminal sshd[6456]: pam_unix(sshd:session): session closed for user osamac
+Dec 13 16:32:41 Xerminal systemd-logind[812]: Removed session 9.
+Dec 13 16:35:32 Xerminal sshd[6731]: Invalid user gtta from 127.0.0.1 port 37668
+Dec 13 16:35:36 Xerminal sshd[6731]: pam_unix(sshd:auth): check pass; user unknown
+Dec 13 16:35:36 Xerminal sshd[6731]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Dec 13 16:35:38 Xerminal sshd[6731]: Failed password for invalid user gtta from 127.0.0.1 port 37668 ssh2
+Dec 13 16:37:20 Xerminal sshd[6731]: Connection closed by invalid user gtta 127.0.0.1 port 37668 [preauth]
+Dec 13 16:37:24 Xerminal sshd[6782]: Invalid user gtta from 127.0.0.1 port 37674
+Dec 13 16:37:26 Xerminal sshd[6782]: pam_unix(sshd:auth): check pass; user unknown
+Dec 13 16:37:26 Xerminal sshd[6782]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Dec 13 16:37:28 Xerminal sshd[6782]: Failed password for invalid user gtta from 127.0.0.1 port 37674 ssh2
+Dec 13 17:11:48 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 17:11:48 Xerminal pkexec[7655]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 450]
+Dec 13 17:17:01 Xerminal CRON[7677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 13 17:17:01 Xerminal CRON[7677]: pam_unix(cron:session): session closed for user root
+Dec 13 17:18:21 Xerminal systemd-logind[812]: Lid closed.
+Dec 13 17:18:21 Xerminal systemd-logind[812]: Suspending...
+Dec 13 17:20:25 Xerminal systemd-logind[812]: Lid opened.
+Dec 13 17:20:25 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 17:20:25 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 17:20:25 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 17:20:25 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 17:20:25 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 17:20:25 Xerminal pkexec[7854]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 457]
+Dec 13 17:20:26 Xerminal systemd-logind[812]: Operation 'sleep' finished.
+Dec 13 17:20:29 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 13 17:20:41 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 17:20:41 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 17:20:41 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 17:20:47 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 17:20:47 Xerminal pkexec[8011]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 450]
+Dec 13 17:20:51 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 17:20:51 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 17:20:51 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 17:21:00 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 13 17:21:00 Xerminal pkexec[8035]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 457]
+Dec 13 18:17:01 Xerminal CRON[11005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 13 18:17:01 Xerminal CRON[11005]: pam_unix(cron:session): session closed for user root
+Dec 13 18:21:57 Xerminal systemd-logind[812]: Lid closed.
+Dec 13 18:21:57 Xerminal systemd-logind[812]: Suspending...
+Dec 13 18:22:02 Xerminal systemd-logind[812]: Delay lock is active (UID 1000/osamac, PID 1434/gnome-shell) but inhibitor timeout is reached.
+Dec 13 18:27:56 Xerminal systemd-logind[812]: Lid opened.
+Dec 13 18:27:56 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 18:27:56 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 18:27:56 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 18:27:56 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 18:27:56 Xerminal systemd-logind[812]: Operation 'sleep' finished.
+Dec 13 18:28:09 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 13 18:28:15 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:28:15 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:28:15 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:28:25 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:28:25 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:28:25 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:28:48 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:28:48 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:28:48 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:28:48 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:28:48 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:28:48 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:28:55 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:28:55 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:28:55 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:28:55 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:28:55 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:28:55 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:10 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:10 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:10 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:10 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:10 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:10 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:10 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:10 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:10 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:10 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:10 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:10 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:21 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:21 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:21 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:21 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:21 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:21 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:33 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:33 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:33 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:33 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:33 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:33 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:44 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:44 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:44 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:29:44 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:29:44 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:29:44 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:30:06 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:30:06 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:30:06 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:30:06 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:30:06 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:30:06 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:30:17 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:30:17 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:30:17 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:30:17 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:30:17 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:30:17 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:31:00 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:31:00 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:31:00 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:31:10 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 18:31:10 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 18:31:10 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 18:32:45 Xerminal systemd-logind[812]: Lid closed.
+Dec 13 18:32:45 Xerminal systemd-logind[812]: Suspending...
+Dec 13 21:46:09 Xerminal systemd-logind[812]: Lid opened.
+Dec 13 21:46:09 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 21:46:09 Xerminal dbus[827]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")
+Dec 13 21:46:09 Xerminal dbus[827]: message repeated 2 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.78" (uid=1000 pid=1443 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=890 comm="/usr/lib/bluetooth/bluetoothd ")]
+Dec 13 21:46:09 Xerminal systemd-logind[812]: Operation 'sleep' finished.
+Dec 13 21:46:24 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 21:46:24 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 21:46:24 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 21:46:34 Xerminal sshd[1000]: Received SIGHUP; restarting.
+Dec 13 21:46:34 Xerminal sshd[1000]: Server listening on 0.0.0.0 port 22.
+Dec 13 21:46:34 Xerminal sshd[1000]: Server listening on :: port 22.
+Dec 13 21:47:36 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 13 21:47:56 Xerminal gnome-keyring-daemon[1281]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 13 21:47:59 Xerminal gnome-keyring-daemon[1281]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 13 21:56:56 Xerminal systemd-logind[812]: System is rebooting.
+Dec 13 21:56:56 Xerminal polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.74, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 15 16:33:45 Xerminal systemd-logind[875]: New seat seat0.
+Dec 15 16:33:45 Xerminal systemd-logind[875]: Watching system buttons on /dev/input/event3 (Power Button)
+Dec 15 16:33:45 Xerminal systemd-logind[875]: Watching system buttons on /dev/input/event1 (Power Button)
+Dec 15 16:33:45 Xerminal systemd-logind[875]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Dec 15 16:33:45 Xerminal systemd-logind[875]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Dec 15 16:33:45 Xerminal systemd-logind[875]: Watching system buttons on /dev/input/event8 (Intel HID events)
+Dec 15 16:33:45 Xerminal systemd-logind[875]: Watching system buttons on /dev/input/event4 (AT Translated Set 2 keyboard)
+Dec 15 16:33:50 Xerminal sshd[1008]: Server listening on 0.0.0.0 port 22.
+Dec 15 16:33:50 Xerminal sshd[1008]: Server listening on :: port 22.
+Dec 15 16:33:55 Xerminal gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Dec 15 16:33:55 Xerminal systemd-logind[875]: New session c1 of user gdm.
+Dec 15 16:33:55 Xerminal systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Dec 15 16:34:05 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.28" (uid=121 pid=1165 comm="/usr/bin/gnome-shell ")
+Dec 15 16:34:07 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.28" (uid=121 pid=1165 comm="/usr/bin/gnome-shell ")
+Dec 15 16:34:07 Xerminal dbus[856]: message repeated 17 times: [ [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.28" (uid=121 pid=1165 comm="/usr/bin/gnome-shell ")]
+Dec 15 16:34:09 Xerminal sshd[1008]: Received SIGHUP; restarting.
+Dec 15 16:34:09 Xerminal sshd[1008]: Server listening on 0.0.0.0 port 22.
+Dec 15 16:34:09 Xerminal sshd[1008]: Server listening on :: port 22.
+Dec 15 16:34:19 Xerminal sshd[1008]: Received SIGHUP; restarting.
+Dec 15 16:34:19 Xerminal sshd[1008]: Server listening on 0.0.0.0 port 22.
+Dec 15 16:34:19 Xerminal sshd[1008]: Server listening on :: port 22.
+Dec 15 16:34:21 Xerminal polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 15 16:34:49 Xerminal gdm-password]: pam_unix(gdm-password:session): session opened for user osamac by (uid=0)
+Dec 15 16:34:49 Xerminal systemd-logind[875]: New session 2 of user osamac.
+Dec 15 16:34:49 Xerminal systemd: pam_unix(systemd-user:session): session opened for user osamac by (uid=0)
+Dec 15 16:34:50 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")
+Dec 15 16:34:51 Xerminal dbus[856]: message repeated 2 times: [ [system] Rejected send message, 2 matched rules; type="error", sender=":1.4" (uid=0 pid=875 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.72" (uid=1000 pid=1951 comm="/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/use")]
+Dec 15 16:34:53 Xerminal polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 15 16:36:03 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 15 16:36:03 Xerminal pkexec[2728]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Dec 15 16:38:33 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 15 16:50:59 Xerminal pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Dec 15 16:50:59 Xerminal pkexec[3598]: osamac: Executing command [USER=root] [TTY=unknown] [CWD=/home/osamac] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Dec 15 17:17:01 Xerminal CRON[4644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 17:17:01 Xerminal CRON[4644]: pam_unix(cron:session): session closed for user root
+Dec 15 17:36:41 Xerminal gnome-keyring-daemon[1945]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 15 17:36:43 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 17:36:47 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 17:42:14 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/pip3 install pickle
+Dec 15 17:42:14 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 15 17:42:17 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 15 17:42:35 Xerminal sudo:   osamac : TTY=pts/0 ; PWD=/home/osamac/Work/Anomaly Detection Models Creation ; USER=root ; COMMAND=/usr/bin/python3 -m pip3 install pickle
+Dec 15 17:42:35 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 15 17:42:35 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 15 17:57:17 Xerminal sudo:   osamac : TTY=pts/2 ; PWD=/home/osamac/Program Files/clion-2017.3.4/bin ; USER=root ; COMMAND=./clion.sh
+Dec 15 17:57:17 Xerminal sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 15 18:17:01 Xerminal CRON[9031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 18:17:01 Xerminal CRON[9031]: pam_unix(cron:session): session closed for user root
+Dec 15 18:22:42 Xerminal sudo: pam_unix(sudo:session): session closed for user root
+Dec 15 18:28:48 Xerminal sshd[9471]: Invalid user gtta from 192.168.1.253 port 35132
+Dec 15 18:28:50 Xerminal sshd[9471]: pam_unix(sshd:auth): check pass; user unknown
+Dec 15 18:28:50 Xerminal sshd[9471]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253
+Dec 15 18:28:52 Xerminal sshd[9471]: Failed password for invalid user gtta from 192.168.1.253 port 35132 ssh2
+Dec 15 18:28:58 Xerminal sshd[9471]: Failed password for invalid user gtta from 192.168.1.253 port 35132 ssh2
+Dec 15 18:28:58 Xerminal sshd[9471]: Connection reset by invalid user gtta 192.168.1.253 port 35132 [preauth]
+Dec 15 18:30:26 Xerminal sshd[9554]: Invalid user gtta from 192.168.1.253 port 35134
+Dec 15 18:30:34 Xerminal sshd[9554]: Connection closed by invalid user gtta 192.168.1.253 port 35134 [preauth]
+Dec 15 18:30:41 Xerminal sshd[9563]: Invalid user gtta from 192.168.1.253 port 35136
+Dec 15 18:30:42 Xerminal sshd[9563]: pam_unix(sshd:auth): check pass; user unknown
+Dec 15 18:30:42 Xerminal sshd[9563]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253
+Dec 15 18:30:44 Xerminal sshd[9563]: Failed password for invalid user gtta from 192.168.1.253 port 35136 ssh2
+Dec 15 18:30:55 Xerminal sshd[9563]: Connection closed by invalid user gtta 192.168.1.253 port 35136 [preauth]
+Dec 15 18:30:56 Xerminal sshd[9577]: Invalid user gtta from 192.168.1.253 port 35138
+Dec 15 18:30:58 Xerminal sshd[9577]: pam_unix(sshd:auth): check pass; user unknown
+Dec 15 18:30:58 Xerminal sshd[9577]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253
+Dec 15 18:31:00 Xerminal sshd[9577]: Failed password for invalid user gtta from 192.168.1.253 port 35138 ssh2
+Dec 15 18:31:08 Xerminal sshd[9577]: pam_unix(sshd:auth): check pass; user unknown
+Dec 15 18:31:10 Xerminal sshd[9577]: Failed password for invalid user gtta from 192.168.1.253 port 35138 ssh2
+Dec 15 18:31:48 Xerminal sshd[9577]: Connection closed by invalid user gtta 192.168.1.253 port 35138 [preauth]
+Dec 15 18:31:48 Xerminal sshd[9577]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253
+Dec 15 18:34:45 Xerminal sshd[9672]: Invalid user gtta from 127.0.0.1 port 40104
+Dec 15 18:38:29 Xerminal sshd[9768]: Invalid user gtta from 127.0.0.1 port 40108
+Dec 15 18:39:05 Xerminal sshd[9768]: Connection closed by invalid user gtta 127.0.0.1 port 40108 [preauth]
+Dec 15 18:41:02 Xerminal sshd[9844]: Invalid user gtta from 127.0.0.1 port 40116
+Dec 15 18:41:28 Xerminal sshd[9844]: Connection closed by invalid user gtta 127.0.0.1 port 40116 [preauth]
+Dec 15 18:43:28 Xerminal sshd[9905]: Invalid user gtta from 192.168.1.253 port 35158
+Dec 15 18:45:18 Xerminal sshd[9905]: Connection closed by invalid user gtta 192.168.1.253 port 35158 [preauth]
+Dec 15 18:45:41 Xerminal sshd[9937]: Invalid user osamax from 127.0.0.1 port 40124
+Dec 15 18:45:56 Xerminal sshd[9937]: pam_unix(sshd:auth): check pass; user unknown
+Dec 15 18:45:56 Xerminal sshd[9937]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Dec 15 18:45:59 Xerminal sshd[9937]: Failed password for invalid user osamax from 127.0.0.1 port 40124 ssh2
+Dec 15 19:17:01 Xerminal CRON[11327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 19:17:01 Xerminal CRON[11327]: pam_unix(cron:session): session closed for user root
+Dec 15 20:16:07 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 20:16:10 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 20:17:01 Xerminal CRON[13382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 20:17:01 Xerminal CRON[13382]: pam_unix(cron:session): session closed for user root
+Dec 15 20:18:05 Xerminal sshd[13451]: Invalid user osamax from 127.0.0.1 port 40818
+Dec 15 20:21:20 Xerminal sshd[13545]: Accepted password for osamac from 127.0.0.1 port 40820 ssh2
+Dec 15 20:21:20 Xerminal sshd[13545]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:21:20 Xerminal systemd-logind[875]: New session 8 of user osamac.
+Dec 15 20:21:43 Xerminal sshd[13624]: Received disconnect from 127.0.0.1 port 40820:11: disconnected by user
+Dec 15 20:21:43 Xerminal sshd[13624]: Disconnected from user osamac 127.0.0.1 port 40820
+Dec 15 20:21:43 Xerminal sshd[13545]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:21:43 Xerminal systemd-logind[875]: Removed session 8.
+Dec 15 20:23:04 Xerminal sshd[13712]: Accepted password for osamac from 127.0.0.1 port 40824 ssh2
+Dec 15 20:23:04 Xerminal sshd[13712]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:23:04 Xerminal systemd-logind[875]: New session 9 of user osamac.
+Dec 15 20:23:50 Xerminal sshd[13796]: Accepted password for osamac from 127.0.0.1 port 40826 ssh2
+Dec 15 20:23:50 Xerminal sshd[13796]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:23:50 Xerminal systemd-logind[875]: New session 10 of user osamac.
+Dec 15 20:24:24 Xerminal sshd[13763]: Received disconnect from 127.0.0.1 port 40824:11: disconnected by user
+Dec 15 20:24:24 Xerminal sshd[13763]: Disconnected from user osamac 127.0.0.1 port 40824
+Dec 15 20:24:24 Xerminal sshd[13712]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:24:24 Xerminal sshd[13848]: Received disconnect from 127.0.0.1 port 40826:11: disconnected by user
+Dec 15 20:24:24 Xerminal sshd[13848]: Disconnected from user osamac 127.0.0.1 port 40826
+Dec 15 20:24:24 Xerminal sshd[13796]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:24:24 Xerminal systemd-logind[875]: Removed session 9.
+Dec 15 20:24:24 Xerminal systemd-logind[875]: Removed session 10.
+Dec 15 20:24:36 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 20:24:38 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 20:27:49 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 20:27:50 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 20:38:50 Xerminal sshd[15063]: Accepted password for osamac from 127.0.0.1 port 41366 ssh2
+Dec 15 20:38:50 Xerminal sshd[15063]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:38:50 Xerminal systemd-logind[875]: New session 11 of user osamac.
+Dec 15 20:39:09 Xerminal sshd[15129]: Accepted password for osamac from 127.0.0.1 port 41368 ssh2
+Dec 15 20:39:09 Xerminal sshd[15129]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:39:09 Xerminal systemd-logind[875]: New session 12 of user osamac.
+Dec 15 20:41:24 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 20:41:26 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 20:46:40 Xerminal sshd[15811]: Accepted password for osamac from 127.0.0.1 port 41546 ssh2
+Dec 15 20:46:40 Xerminal sshd[15811]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:46:40 Xerminal systemd-logind[875]: New session 13 of user osamac.
+Dec 15 20:46:52 Xerminal sshd[15876]: Accepted password for osamac from 127.0.0.1 port 41548 ssh2
+Dec 15 20:46:52 Xerminal sshd[15876]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:46:52 Xerminal systemd-logind[875]: New session 14 of user osamac.
+Dec 15 20:46:56 Xerminal sshd[15940]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 15 20:46:58 Xerminal sshd[15940]: Failed password for osamac from 127.0.0.1 port 41550 ssh2
+Dec 15 20:48:28 Xerminal sshd[15940]: message repeated 2 times: [ Failed password for osamac from 127.0.0.1 port 41550 ssh2]
+Dec 15 20:48:28 Xerminal sshd[15940]: Connection closed by authenticating user osamac 127.0.0.1 port 41550 [preauth]
+Dec 15 20:48:42 Xerminal sshd[15114]: Received disconnect from 127.0.0.1 port 41366:11: disconnected by user
+Dec 15 20:48:42 Xerminal sshd[15114]: Disconnected from user osamac 127.0.0.1 port 41366
+Dec 15 20:48:42 Xerminal sshd[15063]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:48:42 Xerminal sshd[15179]: Received disconnect from 127.0.0.1 port 41368:11: disconnected by user
+Dec 15 20:48:42 Xerminal sshd[15179]: Disconnected from user osamac 127.0.0.1 port 41368
+Dec 15 20:48:42 Xerminal sshd[15129]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:48:42 Xerminal systemd-logind[875]: Removed session 11.
+Dec 15 20:48:42 Xerminal sshd[15861]: Received disconnect from 127.0.0.1 port 41546:11: disconnected by user
+Dec 15 20:48:42 Xerminal sshd[15861]: Disconnected from user osamac 127.0.0.1 port 41546
+Dec 15 20:48:42 Xerminal sshd[15811]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:48:42 Xerminal systemd-logind[875]: Removed session 12.
+Dec 15 20:48:42 Xerminal sshd[15926]: Received disconnect from 127.0.0.1 port 41548:11: disconnected by user
+Dec 15 20:48:42 Xerminal sshd[15926]: Disconnected from user osamac 127.0.0.1 port 41548
+Dec 15 20:48:42 Xerminal sshd[15876]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:48:42 Xerminal systemd-logind[875]: Removed session 13.
+Dec 15 20:48:42 Xerminal systemd-logind[875]: Removed session 14.
+Dec 15 20:52:58 Xerminal sshd[16135]: Accepted password for osamac from 127.0.0.1 port 41556 ssh2
+Dec 15 20:52:58 Xerminal sshd[16135]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:52:58 Xerminal systemd-logind[875]: New session 15 of user osamac.
+Dec 15 20:53:04 Xerminal sshd[16200]: Accepted password for osamac from 127.0.0.1 port 41558 ssh2
+Dec 15 20:53:04 Xerminal sshd[16200]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:53:04 Xerminal systemd-logind[875]: New session 16 of user osamac.
+Dec 15 20:53:13 Xerminal sshd[16264]: Accepted password for osamac from 127.0.0.1 port 41560 ssh2
+Dec 15 20:53:13 Xerminal sshd[16264]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:53:13 Xerminal systemd-logind[875]: New session 17 of user osamac.
+Dec 15 20:53:27 Xerminal sshd[16329]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 15 20:53:29 Xerminal sshd[16329]: Failed password for osamac from 127.0.0.1 port 41562 ssh2
+Dec 15 20:54:02 Xerminal sshd[16329]: message repeated 2 times: [ Failed password for osamac from 127.0.0.1 port 41562 ssh2]
+Dec 15 20:54:02 Xerminal sshd[16329]: Connection closed by authenticating user osamac 127.0.0.1 port 41562 [preauth]
+Dec 15 20:54:02 Xerminal sshd[16329]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 15 20:54:27 Xerminal sshd[16336]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 15 20:54:29 Xerminal sshd[16336]: Failed password for osamac from 127.0.0.1 port 41564 ssh2
+Dec 15 20:54:42 Xerminal sshd[16336]: message repeated 2 times: [ Failed password for osamac from 127.0.0.1 port 41564 ssh2]
+Dec 15 20:54:42 Xerminal sshd[16336]: Connection closed by authenticating user osamac 127.0.0.1 port 41564 [preauth]
+Dec 15 20:54:42 Xerminal sshd[16336]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=osamac
+Dec 15 20:54:50 Xerminal sshd[16340]: Accepted password for osamac from 127.0.0.1 port 41566 ssh2
+Dec 15 20:54:50 Xerminal sshd[16340]: pam_unix(sshd:session): session opened for user osamac by (uid=0)
+Dec 15 20:54:50 Xerminal systemd-logind[875]: New session 18 of user osamac.
+Dec 15 20:54:59 Xerminal sshd[16404]: Invalid user gta from 127.0.0.1 port 41568
+Dec 15 20:56:03 Xerminal sshd[16404]: Failed none for invalid user gta from 127.0.0.1 port 41568 ssh2
+Dec 15 20:56:03 Xerminal sshd[16404]: Failed password for invalid user gta from 127.0.0.1 port 41568 ssh2
+Dec 15 20:56:04 Xerminal sshd[16404]: Failed password for invalid user gta from 127.0.0.1 port 41568 ssh2
+Dec 15 20:56:04 Xerminal sshd[16404]: Connection closed by invalid user gta 127.0.0.1 port 41568 [preauth]
+Dec 15 20:56:21 Xerminal sshd[16409]: Invalid user gta from 192.168.1.253 port 36606
+Dec 15 20:56:27 Xerminal sshd[16409]: pam_unix(sshd:auth): check pass; user unknown
+Dec 15 20:56:27 Xerminal sshd[16409]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.253
+Dec 15 20:56:29 Xerminal sshd[16409]: Failed password for invalid user gta from 192.168.1.253 port 36606 ssh2
+Dec 15 20:56:35 Xerminal sshd[16186]: Received disconnect from 127.0.0.1 port 41556:11: disconnected by user
+Dec 15 20:56:35 Xerminal sshd[16186]: Disconnected from user osamac 127.0.0.1 port 41556
+Dec 15 20:56:35 Xerminal sshd[16135]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:56:35 Xerminal sshd[16250]: Received disconnect from 127.0.0.1 port 41558:11: disconnected by user
+Dec 15 20:56:35 Xerminal sshd[16250]: Disconnected from user osamac 127.0.0.1 port 41558
+Dec 15 20:56:35 Xerminal sshd[16200]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:56:35 Xerminal systemd-logind[875]: Removed session 15.
+Dec 15 20:56:35 Xerminal sshd[16315]: Received disconnect from 127.0.0.1 port 41560:11: disconnected by user
+Dec 15 20:56:35 Xerminal sshd[16315]: Disconnected from user osamac 127.0.0.1 port 41560
+Dec 15 20:56:35 Xerminal sshd[16264]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:56:35 Xerminal systemd-logind[875]: Removed session 16.
+Dec 15 20:56:35 Xerminal sshd[16390]: Received disconnect from 127.0.0.1 port 41566:11: disconnected by user
+Dec 15 20:56:35 Xerminal sshd[16390]: Disconnected from user osamac 127.0.0.1 port 41566
+Dec 15 20:56:35 Xerminal sshd[16340]: pam_unix(sshd:session): session closed for user osamac
+Dec 15 20:56:35 Xerminal systemd-logind[875]: Removed session 17.
+Dec 15 20:56:35 Xerminal sshd[16409]: Failed password for invalid user gta from 192.168.1.253 port 36606 ssh2
+Dec 15 20:56:35 Xerminal sshd[16409]: Connection closed by invalid user gta 192.168.1.253 port 36606 [preauth]
+Dec 15 20:56:35 Xerminal systemd-logind[875]: Removed session 18.
+Dec 15 21:17:01 Xerminal CRON[17219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 21:17:01 Xerminal CRON[17219]: pam_unix(cron:session): session closed for user root
+Dec 15 21:26:38 Xerminal sshd[17657]: Invalid user gta from 192.168.1.253 port 36740
+Dec 15 21:49:47 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 21:49:48 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 22:17:01 Xerminal CRON[19738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 22:17:01 Xerminal CRON[19738]: pam_unix(cron:session): session closed for user root
+Dec 15 22:22:29 Xerminal gdm-password]: gkr-pam: unlocked login keyring
+Dec 15 22:36:02 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec 15 22:36:04 Xerminal gnome-keyring-daemon[1945]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered

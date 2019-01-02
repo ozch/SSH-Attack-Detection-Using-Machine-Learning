@@ -1,0 +1,8 @@
+import csv
+
+csv_file = open('data/SSH.csv', 'a+')
+df =['is_private', 'is_failure', 'is_root', 'is_valid', 'user', 'ip_failure','ip_success','no_failure','td','class']
+
+writer = csv.DictWriter(csv_file, fieldnames=df)
+#writer.writeheader()
+writer.writerow({"is_private":1 ,"is_failure":0 ,"is_root":0 ,"is_valid":1 ,"no_failure":0 ,"td":7789 ,"label":0 })

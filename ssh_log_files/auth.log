@@ -1,0 +1,363 @@
+Dec 12 18:59:14 d-center polkitd[813]: Loading rules from directory /etc/polkit-1/rules.d
+Dec 12 18:59:14 d-center polkitd[813]: Loading rules from directory /usr/share/polkit-1/rules.d
+Dec 12 18:59:14 d-center polkitd[813]: Finished loading, compiling and executing 6 rules
+Dec 12 18:59:14 d-center polkitd[813]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Dec 12 18:59:22 d-center sshd[1324]: Server listening on 0.0.0.0 port 22.
+Dec 12 18:59:22 d-center sshd[1324]: Server listening on :: port 22.
+Dec 12 19:00:09 d-center polkitd[813]: Registered Authentication Agent for unix-process:10618:7486 (system bus name :1.186 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 19:00:09 d-center polkitd[813]: Unregistered Authentication Agent for unix-process:10618:7486 (system bus name :1.186, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 19:00:09 d-center polkitd[813]: Registered Authentication Agent for unix-process:10640:7497 (system bus name :1.187 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 19:00:09 d-center polkitd[813]: Unregistered Authentication Agent for unix-process:10640:7497 (system bus name :1.187, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 19:00:10 d-center gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Dec 12 19:00:16 d-center polkitd[813]: Registered Authentication Agent for unix-session:c1 (system bus name :1.200 [gnome-shell --mode=gdm], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 19:00:57 d-center unix_chkpwd[11070]: password check failed for user (root)
+Dec 12 19:00:57 d-center gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Dec 12 19:00:57 d-center gdm-password]: pam_succeed_if(gdm-password:auth): requirement "uid >= 1000" not met by user "root"
+Dec 12 19:01:15 d-center gdm-password]: pam_unix(gdm-password:session): session opened for user root by (unknown)(uid=0)
+Dec 12 19:01:18 d-center polkitd[813]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.200, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 19:01:19 d-center polkitd[813]: Registered Authentication Agent for unix-session:3 (system bus name :1.231 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 19:04:22 d-center polkitd[813]: Registered Authentication Agent for unix-process:11993:32769 (system bus name :1.268 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 19:04:25 d-center polkitd[813]: Unregistered Authentication Agent for unix-process:11993:32769 (system bus name :1.268, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 19:05:14 d-center polkitd[813]: Registered Authentication Agent for unix-process:12548:38025 (system bus name :1.315 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 19:05:16 d-center polkitd[813]: Unregistered Authentication Agent for unix-process:12548:38025 (system bus name :1.315, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 19:08:17 d-center polkitd[813]: Registered Authentication Agent for unix-process:13225:56284 (system bus name :1.353 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 19:08:17 d-center sshd[1324]: Received signal 15; terminating.
+Dec 12 19:08:17 d-center sshd[13233]: Server listening on 0.0.0.0 port 22.
+Dec 12 19:08:17 d-center sshd[13233]: Server listening on :: port 22.
+Dec 12 19:08:17 d-center polkitd[813]: Unregistered Authentication Agent for unix-process:13225:56284 (system bus name :1.353, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 19:08:42 d-center login: pam_unix(login:session): session opened for user kamran by LOGIN(uid=0)
+Dec 12 19:08:42 d-center login: LOGIN ON tty2 BY kamran
+Dec 12 19:08:51 d-center su: pam_rootok(su:auth): root check failed
+Dec 12 19:09:03 d-center su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Dec 12 19:09:50 d-center su: pam_rootok(su:auth): root check failed
+Dec 12 19:10:01 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 12 19:10:35 d-center useradd[13372]: new group: name=student, GID=1001
+Dec 12 19:10:35 d-center useradd[13372]: new user: name=student, UID=1001, GID=1001, home=/home/student, shell=/bin/bash
+Dec 12 19:10:50 d-center passwd: pam_unix(passwd:chauthtok): password changed for student
+Dec 12 19:10:50 d-center passwd: gkr-pam: couldn't update the login keyring password: no old password was entered
+Dec 12 19:11:01 d-center login: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Dec 12 19:11:01 d-center login: LOGIN ON tty3 BY student
+Dec 13 10:21:58 d-center unix_chkpwd[56535]: password check failed for user (kamran)
+Dec 13 10:21:58 d-center sshd[56525]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 13 10:22:00 d-center sshd[56525]: Failed password for kamran from 172.27.6.79 port 49254 ssh2
+Dec 13 10:22:16 d-center unix_chkpwd[56536]: password check failed for user (kamran)
+Dec 13 10:22:18 d-center sshd[56525]: Failed password for kamran from 172.27.6.79 port 49254 ssh2
+Dec 13 10:24:31 d-center sshd[56553]: Accepted password for student from 172.27.6.79 port 49256 ssh2
+Dec 13 10:24:31 d-center sshd[56553]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 13 10:25:07 d-center sshd[56557]: Received disconnect from 172.27.6.79: 11: disconnected by user
+Dec 13 10:25:07 d-center sshd[56553]: pam_unix(sshd:session): session closed for user student
+Dec 13 10:25:26 d-center unix_chkpwd[56611]: password check failed for user (kamran)
+Dec 13 10:25:26 d-center sshd[56609]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 13 10:25:29 d-center sshd[56609]: Failed password for kamran from 172.27.6.79 port 49258 ssh2
+Dec 13 10:25:56 d-center unix_chkpwd[56620]: password check failed for user (kamran)
+Dec 13 10:25:58 d-center sshd[56609]: Failed password for kamran from 172.27.6.79 port 49258 ssh2
+Dec 13 10:28:21 d-center unix_chkpwd[56639]: password check failed for user (root)
+Dec 13 10:28:21 d-center sshd[56637]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=root
+Dec 13 10:28:21 d-center sshd[56637]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 13 10:28:24 d-center sshd[56637]: Failed password for root from 172.27.6.79 port 51500 ssh2
+Dec 13 10:28:56 d-center sshd[56637]: Failed password for root from 172.27.6.79 port 51500 ssh2
+Dec 13 10:28:56 d-center sshd[56637]: Failed password for root from 172.27.6.79 port 51500 ssh2
+Dec 13 10:28:56 d-center sshd[56637]: Connection closed by 172.27.6.79 [preauth]
+Dec 13 10:29:15 d-center unix_chkpwd[56650]: password check failed for user (kamran)
+Dec 13 10:29:15 d-center sshd[56648]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 13 10:29:17 d-center sshd[56648]: Failed password for kamran from 172.27.6.79 port 51904 ssh2
+Dec 13 10:29:46 d-center unix_chkpwd[56659]: password check failed for user (kamran)
+Dec 13 10:29:47 d-center sshd[56648]: Failed password for kamran from 172.27.6.79 port 51904 ssh2
+Dec 13 10:37:28 d-center unix_chkpwd[56725]: password check failed for user (student)
+Dec 13 10:37:28 d-center sshd[56723]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=student
+Dec 13 10:37:30 d-center sshd[56723]: Failed password for student from 172.27.6.79 port 51906 ssh2
+Dec 13 10:37:33 d-center sshd[56723]: Accepted password for student from 172.27.6.79 port 51906 ssh2
+Dec 13 10:37:34 d-center sshd[56723]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 13 10:37:38 d-center sshd[56728]: Received disconnect from 172.27.6.79: 11: disconnected by user
+Dec 13 10:37:38 d-center sshd[56723]: pam_unix(sshd:session): session closed for user student
+Dec 13 10:37:59 d-center unix_chkpwd[56780]: password check failed for user (kamran)
+Dec 13 10:37:59 d-center sshd[56778]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 13 10:38:01 d-center sshd[56778]: Failed password for kamran from 172.27.6.79 port 51908 ssh2
+Dec 13 10:42:46 d-center unix_chkpwd[56831]: password check failed for user (root)
+Dec 13 10:42:46 d-center sshd[56828]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=root
+Dec 13 10:42:46 d-center sshd[56828]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 13 10:42:48 d-center sshd[56828]: Failed password for root from 172.27.6.79 port 51910 ssh2
+Dec 13 10:55:01 d-center sshd[56936]: Accepted password for student from 172.27.6.79 port 51912 ssh2
+Dec 13 10:55:01 d-center sshd[56936]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 13 10:55:35 d-center sshd[56940]: Received disconnect from 172.27.6.79: 11: disconnected by user
+Dec 13 10:55:35 d-center sshd[56936]: pam_unix(sshd:session): session closed for user student
+Dec 13 10:56:29 d-center unix_chkpwd[56993]: password check failed for user (kamran)
+Dec 13 10:56:29 d-center sshd[56991]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 13 10:56:31 d-center sshd[56991]: Failed password for kamran from 172.27.6.79 port 51914 ssh2
+Dec 13 10:56:32 d-center unix_chkpwd[56994]: password check failed for user (kamran)
+Dec 13 10:56:34 d-center sshd[56991]: Failed password for kamran from 172.27.6.79 port 51914 ssh2
+Dec 13 10:56:34 d-center sshd[56991]: Connection closed by 172.27.6.79 [preauth]
+Dec 13 10:56:34 d-center sshd[56991]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 13 10:56:45 d-center unix_chkpwd[57005]: password check failed for user (kamran)
+Dec 13 10:56:45 d-center sshd[57003]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 13 10:56:47 d-center sshd[57003]: Failed password for kamran from 172.27.6.79 port 51916 ssh2
+Dec 13 11:35:07 d-center gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Dec 13 11:35:07 d-center gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [root]
+Dec 13 11:35:07 d-center gdm-password]: pam_succeed_if(gdm-password:auth): requirement "uid >= 1000" not met by user "root"
+Dec 13 11:35:07 d-center gdm-password]: gkr-pam: no password is available for user
+Dec 13 11:35:09 d-center gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Dec 13 11:35:11 d-center polkitd[813]: Registered Authentication Agent for unix-session:c2 (system bus name :1.627 [gnome-shell --mode=gdm], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 13 11:35:29 d-center unix_chkpwd[57719]: password check failed for user (kamran)
+Dec 13 11:35:29 d-center gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=kamran
+Dec 13 11:35:57 d-center unix_chkpwd[57741]: password check failed for user (kamran)
+Dec 13 11:35:57 d-center gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=kamran
+Dec 13 11:36:04 d-center gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Dec 13 11:36:04 d-center gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [kamran]
+Dec 13 11:36:04 d-center gdm-password]: gkr-pam: no password is available for user
+Dec 13 11:36:25 d-center unix_chkpwd[57756]: password check failed for user (kamran)
+Dec 13 11:36:25 d-center gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=kamran
+Dec 13 11:36:57 d-center gdm-password]: pam_unix(gdm-password:session): session opened for user root by (unknown)(uid=0)
+Dec 13 11:38:23 d-center accounts-daemon: request by system-bus-name::1.648 [gnome-control-center --overview pid:57826 uid:0]: set password and hint of user 'kamran' (1000)
+Dec 13 11:38:23 d-center usermod[57864]: change user 'kamran' password
+Dec 13 11:39:18 d-center gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Dec 13 11:39:18 d-center gdm-password]: pam_succeed_if(gdm-password:auth): requirement "uid >= 1000" not met by user "root"
+Dec 13 11:39:28 d-center gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Dec 13 11:39:28 d-center gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [root]
+Dec 13 11:39:28 d-center gdm-password]: pam_succeed_if(gdm-password:auth): requirement "uid >= 1000" not met by user "root"
+Dec 13 11:39:28 d-center gdm-password]: gkr-pam: no password is available for user
+Dec 13 11:39:30 d-center gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Dec 13 11:39:32 d-center polkitd[813]: Registered Authentication Agent for unix-session:c3 (system bus name :1.657 [gnome-shell --mode=gdm], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 13 11:39:50 d-center gdm-password]: pam_unix(gdm-password:session): session opened for user kamran by (unknown)(uid=0)
+Dec 13 11:39:53 d-center polkitd[813]: Unregistered Authentication Agent for unix-session:c3 (system bus name :1.657, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 13 11:39:54 d-center polkitd[813]: Registered Authentication Agent for unix-session:127 (system bus name :1.681 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 13 11:40:36 d-center su: pam_rootok(su:auth): root check failed
+Dec 13 11:40:49 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 13 11:40:55 d-center su: pam_unix(su:session): session closed for user root
+Dec 13 12:05:12 d-center sshd[59583]: Accepted password for kamran from 172.27.6.79 port 51918 ssh2
+Dec 13 12:05:12 d-center sshd[59583]: pam_unix(sshd:session): session opened for user kamran by (uid=0)
+Dec 13 12:05:18 d-center su: pam_rootok(su:auth): root check failed
+Dec 13 12:05:30 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 13 14:22:55 d-center sshd[59583]: pam_unix(sshd:session): session closed for user kamran
+Dec 13 14:22:55 d-center su: pam_unix(su:session): session closed for user root
+Dec 13 19:12:31 d-center sshd[65093]: Accepted password for student from 172.27.6.79 port 53896 ssh2
+Dec 13 19:12:32 d-center sshd[65093]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 13 19:12:43 d-center sshd[65097]: Received disconnect from 172.27.6.79: 11: disconnected by user
+Dec 13 19:12:43 d-center sshd[65093]: pam_unix(sshd:session): session closed for user student
+Dec 13 19:12:58 d-center sshd[65177]: Accepted password for kamran from 172.27.6.79 port 53898 ssh2
+Dec 13 19:12:58 d-center sshd[65177]: pam_unix(sshd:session): session opened for user kamran by (uid=0)
+Dec 13 19:13:09 d-center su: pam_rootok(su:auth): root check failed
+Dec 13 19:13:24 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 13 21:28:11 d-center sshd[65177]: pam_unix(sshd:session): session closed for user kamran
+Dec 13 21:28:11 d-center su: pam_unix(su:session): session closed for user root
+Dec 14 10:14:25 d-center unix_chkpwd[76726]: password check failed for user (kamran)
+Dec 14 10:14:25 d-center sshd[76716]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 14 10:14:28 d-center sshd[76716]: Failed password for kamran from 172.27.6.79 port 54610 ssh2
+Dec 14 10:14:36 d-center sshd[76716]: Accepted password for kamran from 172.27.6.79 port 54610 ssh2
+Dec 14 10:14:36 d-center sshd[76716]: pam_unix(sshd:session): session opened for user kamran by (uid=0)
+Dec 14 10:14:41 d-center su: pam_rootok(su:auth): root check failed
+Dec 14 10:14:49 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 14 10:33:27 d-center su: pam_unix(su:session): session closed for user root
+Dec 14 10:33:31 d-center sshd[76729]: Received disconnect from 172.27.6.79: 11: disconnected by user
+Dec 14 10:33:31 d-center sshd[76716]: pam_unix(sshd:session): session closed for user kamran
+Dec 14 10:48:46 d-center unix_chkpwd[77306]: password check failed for user (student)
+Dec 14 10:48:46 d-center sshd[77296]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.214  user=student
+Dec 14 10:48:48 d-center unix_chkpwd[77307]: password check failed for user (student)
+Dec 14 10:48:48 d-center sshd[77288]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.148  user=student
+Dec 14 10:48:48 d-center sshd[77296]: Failed password for student from 172.27.5.214 port 49752 ssh2
+Dec 14 10:48:50 d-center unix_chkpwd[77308]: password check failed for user (student)
+Dec 14 10:48:50 d-center sshd[77300]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.246  user=student
+Dec 14 10:48:50 d-center sshd[77288]: Failed password for student from 172.27.5.148 port 50708 ssh2
+Dec 14 10:48:51 d-center sshd[77300]: Failed password for student from 172.27.5.246 port 60600 ssh2
+Dec 14 10:48:55 d-center unix_chkpwd[77313]: password check failed for user (student)
+Dec 14 10:48:55 d-center sshd[77290]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.208  user=student
+Dec 14 10:48:57 d-center sshd[77290]: Failed password for student from 172.27.5.208 port 49841 ssh2
+Dec 14 10:48:57 d-center unix_chkpwd[77314]: password check failed for user (student)
+Dec 14 10:48:58 d-center unix_chkpwd[77315]: password check failed for user (student)
+Dec 14 10:48:58 d-center sshd[77298]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.159  user=student
+Dec 14 10:48:58 d-center unix_chkpwd[77316]: password check failed for user (student)
+Dec 14 10:48:58 d-center sshd[77292]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.253  user=student
+Dec 14 10:48:59 d-center sshd[77300]: Failed password for student from 172.27.5.246 port 60600 ssh2
+Dec 14 10:48:59 d-center sshd[77298]: Failed password for student from 172.27.5.159 port 50477 ssh2
+Dec 14 10:49:00 d-center sshd[77292]: Failed password for student from 172.27.5.253 port 49432 ssh2
+Dec 14 10:49:00 d-center sshd[77296]: Accepted password for student from 172.27.5.214 port 49752 ssh2
+Dec 14 10:49:00 d-center sshd[77296]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:49:02 d-center unix_chkpwd[77378]: password check failed for user (student)
+Dec 14 10:49:03 d-center sshd[77288]: Failed password for student from 172.27.5.148 port 50708 ssh2
+Dec 14 10:49:05 d-center unix_chkpwd[77379]: password check failed for user (student)
+Dec 14 10:49:07 d-center sshd[77290]: Failed password for student from 172.27.5.208 port 49841 ssh2
+Dec 14 10:49:08 d-center unix_chkpwd[77380]: password check failed for user (student)
+Dec 14 10:49:10 d-center sshd[77298]: Failed password for student from 172.27.5.159 port 50477 ssh2
+Dec 14 10:49:11 d-center unix_chkpwd[77381]: password check failed for user (student)
+Dec 14 10:49:12 d-center sshd[77288]: Accepted password for student from 172.27.5.148 port 50708 ssh2
+Dec 14 10:49:12 d-center sshd[77300]: Accepted password for student from 172.27.5.246 port 60600 ssh2
+Dec 14 10:49:12 d-center sshd[77288]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:49:12 d-center sshd[77300]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:49:13 d-center sshd[77292]: Failed password for student from 172.27.5.253 port 49432 ssh2
+Dec 14 10:49:17 d-center sshd[77298]: Accepted password for student from 172.27.5.159 port 50477 ssh2
+Dec 14 10:49:17 d-center sshd[77298]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:49:20 d-center sshd[77302]: Accepted password for student from 172.27.7.250 port 51531 ssh2
+Dec 14 10:49:20 d-center sshd[77302]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:49:21 d-center unix_chkpwd[77640]: password check failed for user (student)
+Dec 14 10:49:21 d-center sshd[77311]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.41  user=student
+Dec 14 10:49:22 d-center sshd[77290]: Accepted password for student from 172.27.5.208 port 49841 ssh2
+Dec 14 10:49:22 d-center sshd[77290]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:49:23 d-center sshd[77311]: Failed password for student from 172.27.5.41 port 49751 ssh2
+Dec 14 10:49:23 d-center sshd[77582]: Connection closed by 172.27.7.26 [preauth]
+Dec 14 10:49:46 d-center sshd[77311]: Accepted password for student from 172.27.5.41 port 49751 ssh2
+Dec 14 10:49:47 d-center sshd[77311]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:50:07 d-center sshd[77711]: Received disconnect from 172.27.5.41: 11: disconnected by user
+Dec 14 10:50:07 d-center sshd[77311]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:50:08 d-center unix_chkpwd[77827]: password check failed for user (student)
+Dec 14 10:50:08 d-center sshd[77309]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.207  user=student
+Dec 14 10:50:08 d-center sshd[77586]: Received disconnect from 172.27.7.250: 11: disconnected by user
+Dec 14 10:50:08 d-center sshd[77302]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:50:09 d-center sshd[77309]: Failed password for student from 172.27.5.207 port 49944 ssh2
+Dec 14 10:50:13 d-center unix_chkpwd[77850]: password check failed for user (student)
+Dec 14 10:50:13 d-center sshd[77841]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.41  user=student
+Dec 14 10:50:16 d-center sshd[77841]: Failed password for student from 172.27.5.41 port 50050 ssh2
+Dec 14 10:50:19 d-center sshd[77843]: Accepted password for student from 172.27.7.250 port 51545 ssh2
+Dec 14 10:50:19 d-center sshd[77843]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:50:20 d-center unix_chkpwd[77911]: password check failed for user (student)
+Dec 14 10:50:20 d-center sshd[77841]: Accepted password for student from 172.27.5.41 port 50050 ssh2
+Dec 14 10:50:20 d-center sshd[77841]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:50:21 d-center sshd[77309]: Failed password for student from 172.27.5.207 port 49944 ssh2
+Dec 14 10:50:22 d-center sshd[77857]: Received disconnect from 172.27.7.250: 11: disconnected by user
+Dec 14 10:50:22 d-center sshd[77843]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:50:26 d-center unix_chkpwd[77983]: password check failed for user (student)
+Dec 14 10:50:28 d-center sshd[77309]: Failed password for student from 172.27.5.207 port 49944 ssh2
+Dec 14 10:50:28 d-center sshd[77309]: Connection closed by 172.27.5.207 [preauth]
+Dec 14 10:50:28 d-center sshd[77309]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.207  user=student
+Dec 14 10:50:29 d-center unix_chkpwd[77985]: password check failed for user (student)
+Dec 14 10:50:29 d-center sshd[77304]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.65  user=student
+Dec 14 10:50:31 d-center sshd[77914]: Received disconnect from 172.27.5.41: 11: disconnected by user
+Dec 14 10:50:31 d-center sshd[77841]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:50:31 d-center sshd[77319]: Received disconnect from 172.27.5.214: 11: disconnected by user
+Dec 14 10:50:31 d-center sshd[77296]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:50:31 d-center sshd[77304]: Failed password for student from 172.27.6.65 port 50777 ssh2
+Dec 14 10:50:36 d-center sshd[77981]: Accepted password for student from 172.27.7.250 port 51551 ssh2
+Dec 14 10:50:37 d-center sshd[77981]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:50:38 d-center sshd[77386]: Received disconnect from 172.27.5.148: 11: disconnected by user
+Dec 14 10:50:38 d-center sshd[77288]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:50:42 d-center sshd[78005]: Received disconnect from 172.27.7.250: 11: disconnected by user
+Dec 14 10:50:42 d-center sshd[77981]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:50:43 d-center unix_chkpwd[78091]: password check failed for user (student)
+Dec 14 10:50:43 d-center sshd[78001]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.41  user=student
+Dec 14 10:50:43 d-center sshd[77440]: Received disconnect from 172.27.5.246: 11: disconnected by user
+Dec 14 10:50:43 d-center sshd[77300]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:50:45 d-center sshd[78001]: Failed password for student from 172.27.5.41 port 50198 ssh2
+Dec 14 10:50:52 d-center unix_chkpwd[78111]: password check failed for user (student)
+Dec 14 10:50:54 d-center sshd[78001]: Failed password for student from 172.27.5.41 port 50198 ssh2
+Dec 14 10:51:01 d-center sshd[78001]: Accepted password for student from 172.27.5.41 port 50198 ssh2
+Dec 14 10:51:02 d-center sshd[78001]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:51:02 d-center unix_chkpwd[78172]: password check failed for user (student)
+Dec 14 10:51:02 d-center sshd[78112]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.214  user=student
+Dec 14 10:51:04 d-center sshd[78112]: Failed password for student from 172.27.5.214 port 49761 ssh2
+Dec 14 10:51:05 d-center sshd[78114]: Accepted password for student from 172.27.5.148 port 50732 ssh2
+Dec 14 10:51:05 d-center sshd[78114]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:51:08 d-center sshd[78118]: Received disconnect from 172.27.5.41: 11: disconnected by user
+Dec 14 10:51:08 d-center sshd[78001]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:51:09 d-center sshd[78176]: Received disconnect from 172.27.5.148: 11: disconnected by user
+Dec 14 10:51:09 d-center sshd[78114]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:51:09 d-center unix_chkpwd[78234]: password check failed for user (student)
+Dec 14 10:51:11 d-center sshd[78112]: Failed password for student from 172.27.5.214 port 49761 ssh2
+Dec 14 10:51:12 d-center unix_chkpwd[78250]: password check failed for user (student)
+Dec 14 10:51:15 d-center sshd[78112]: Failed password for student from 172.27.5.214 port 49761 ssh2
+Dec 14 10:51:15 d-center sshd[78112]: Connection closed by 172.27.5.214 [preauth]
+Dec 14 10:51:15 d-center sshd[78112]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.214  user=student
+Dec 14 10:51:19 d-center sshd[78248]: Accepted password for student from 172.27.5.148 port 50734 ssh2
+Dec 14 10:51:20 d-center sshd[78248]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:51:23 d-center sshd[78246]: Accepted password for student from 172.27.5.246 port 60638 ssh2
+Dec 14 10:51:23 d-center sshd[78246]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Dec 14 10:51:24 d-center unix_chkpwd[78373]: password check failed for user (student)
+Dec 14 10:51:24 d-center sshd[78303]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.214  user=student
+Dec 14 10:51:25 d-center sshd[78261]: Received disconnect from 172.27.5.148: 11: disconnected by user
+Dec 14 10:51:25 d-center sshd[78248]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:51:26 d-center sshd[78303]: Failed password for student from 172.27.5.214 port 49763 ssh2
+Dec 14 10:51:29 d-center sshd[78307]: Received disconnect from 172.27.5.246: 11: disconnected by user
+Dec 14 10:51:29 d-center sshd[78246]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:51:31 d-center unix_chkpwd[78400]: password check failed for user (student)
+Dec 14 10:51:34 d-center sshd[78303]: Failed password for student from 172.27.5.214 port 49763 ssh2
+Dec 14 10:51:37 d-center unix_chkpwd[78407]: password check failed for user (student)
+Dec 14 10:51:39 d-center sshd[78303]: Failed password for student from 172.27.5.214 port 49763 ssh2
+Dec 14 10:51:39 d-center sshd[78303]: Connection closed by 172.27.5.214 [preauth]
+Dec 14 10:51:39 d-center sshd[78303]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.5.214  user=student
+Dec 14 10:51:42 d-center sshd[77643]: Received disconnect from 172.27.5.208: 11: disconnected by user
+Dec 14 10:51:42 d-center sshd[77290]: pam_unix(sshd:session): session closed for user student
+Dec 14 10:51:52 d-center sshd[77516]: Received disconnect from 172.27.5.159: 11: disconnected by user
+Dec 14 10:51:52 d-center sshd[77298]: pam_unix(sshd:session): session closed for user student
+Dec 15 13:59:45 d-center sshd[98947]: Accepted password for kamran from 172.27.6.79 port 46334 ssh2
+Dec 15 13:59:46 d-center sshd[98947]: pam_unix(sshd:session): session opened for user kamran by (uid=0)
+Dec 15 13:59:57 d-center su: pam_rootok(su:auth): root check failed
+Dec 15 14:00:14 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 15 14:11:19 d-center sshd[98951]: Received disconnect from 172.27.6.79: 11: disconnected by user
+Dec 15 14:11:19 d-center sshd[98947]: pam_unix(sshd:session): session closed for user kamran
+Dec 15 14:11:19 d-center su: pam_unix(su:session): session closed for user root
+Dec 15 14:12:29 d-center unix_chkpwd[99277]: password check failed for user (kamran)
+Dec 15 14:12:29 d-center sshd[99267]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.27.6.79  user=kamran
+Dec 15 14:12:32 d-center sshd[99267]: Failed password for kamran from 172.27.6.79 port 46336 ssh2
+Dec 15 14:12:41 d-center sshd[99267]: Accepted password for kamran from 172.27.6.79 port 46336 ssh2
+Dec 15 14:12:41 d-center sshd[99267]: pam_unix(sshd:session): session opened for user kamran by (uid=0)
+Dec 15 14:12:47 d-center su: pam_rootok(su:auth): root check failed
+Dec 15 14:12:56 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 15 14:16:49 d-center sshd[99426]: Address fe80::1ca3:529d:5379:b461%em1 maps to d-center, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec 15 14:17:01 d-center sshd[99426]: Connection closed by fe80::1ca3:529d:5379:b461%em1 [preauth]
+Dec 15 14:21:11 d-center sshd[99514]: Address fe80::1ca3:529d:5379:b461%em1 maps to d-center, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec 15 14:21:22 d-center unix_chkpwd[99516]: password check failed for user (root)
+Dec 15 14:21:22 d-center sshd[99514]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:21:22 d-center sshd[99514]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:21:23 d-center sshd[99514]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49522 ssh2
+Dec 15 14:21:31 d-center unix_chkpwd[99517]: password check failed for user (root)
+Dec 15 14:21:31 d-center sshd[99514]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:21:33 d-center sshd[99514]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49522 ssh2
+Dec 15 14:21:46 d-center unix_chkpwd[99518]: password check failed for user (root)
+Dec 15 14:21:46 d-center sshd[99514]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:21:49 d-center sshd[99514]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49522 ssh2
+Dec 15 14:21:49 d-center sshd[99514]: Connection closed by fe80::1ca3:529d:5379:b461%em1 [preauth]
+Dec 15 14:21:49 d-center sshd[99514]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:22:11 d-center sshd[99529]: Address fe80::1ca3:529d:5379:b461%em1 maps to d-center, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec 15 14:22:25 d-center unix_chkpwd[99531]: password check failed for user (root)
+Dec 15 14:22:25 d-center sshd[99529]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:22:25 d-center sshd[99529]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:22:27 d-center sshd[99529]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49524 ssh2
+Dec 15 14:22:59 d-center sshd[99529]: Connection closed by fe80::1ca3:529d:5379:b461%em1 [preauth]
+Dec 15 14:23:13 d-center sshd[99542]: Address fe80::1ca3:529d:5379:b461%em1 maps to d-center, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec 15 14:23:19 d-center unix_chkpwd[99544]: password check failed for user (root)
+Dec 15 14:23:19 d-center sshd[99542]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:23:19 d-center sshd[99542]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:23:21 d-center sshd[99542]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49526 ssh2
+Dec 15 14:23:29 d-center unix_chkpwd[99545]: password check failed for user (root)
+Dec 15 14:23:29 d-center sshd[99542]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:23:31 d-center sshd[99542]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49526 ssh2
+Dec 15 14:23:32 d-center sshd[99542]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49526 ssh2
+Dec 15 14:23:32 d-center sshd[99542]: Connection closed by fe80::1ca3:529d:5379:b461%em1 [preauth]
+Dec 15 14:23:32 d-center sshd[99542]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:23:35 d-center su: pam_unix(su:session): session closed for user root
+Dec 15 14:23:39 d-center su: pam_rootok(su:auth): root check failed
+Dec 15 14:23:44 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 15 14:23:49 d-center sshd[99586]: Address fe80::1ca3:529d:5379:b461%em1 maps to d-center, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec 15 14:23:54 d-center unix_chkpwd[99588]: password check failed for user (root)
+Dec 15 14:23:54 d-center sshd[99586]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:23:54 d-center sshd[99586]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:23:56 d-center sshd[99586]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49528 ssh2
+Dec 15 14:24:08 d-center unix_chkpwd[99597]: password check failed for user (root)
+Dec 15 14:24:08 d-center sshd[99586]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:24:10 d-center sshd[99586]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49528 ssh2
+Dec 15 14:24:23 d-center sshd[99280]: Received disconnect from 172.27.6.79: 11: disconnected by user
+Dec 15 14:24:23 d-center sshd[99267]: pam_unix(sshd:session): session closed for user kamran
+Dec 15 14:24:23 d-center sshd[99586]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49528 ssh2
+Dec 15 14:24:23 d-center sshd[99586]: Connection closed by fe80::1ca3:529d:5379:b461%em1 [preauth]
+Dec 15 14:24:23 d-center sshd[99586]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:24:23 d-center su: pam_unix(su:session): session closed for user root
+Dec 15 14:24:34 d-center sshd[99614]: Accepted password for kamran from 172.27.6.79 port 46436 ssh2
+Dec 15 14:24:34 d-center sshd[99614]: pam_unix(sshd:session): session opened for user kamran by (uid=0)
+Dec 15 14:24:38 d-center su: pam_rootok(su:auth): root check failed
+Dec 15 14:24:43 d-center su: pam_unix(su:session): session opened for user root by kamran(uid=1000)
+Dec 15 14:24:48 d-center sshd[99713]: Address fe80::1ca3:529d:5379:b461%em1 maps to d-center, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec 15 14:25:01 d-center unix_chkpwd[99723]: password check failed for user (root)
+Dec 15 14:25:01 d-center sshd[99713]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:25:01 d-center sshd[99713]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:25:04 d-center sshd[99713]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49530 ssh2
+Dec 15 14:25:23 d-center sshd[99713]: Connection closed by fe80::1ca3:529d:5379:b461%em1 [preauth]
+Dec 15 14:26:50 d-center sshd[99757]: Address fe80::1ca3:529d:5379:b461%em1 maps to d-center, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec 15 14:26:58 d-center unix_chkpwd[99767]: password check failed for user (root)
+Dec 15 14:26:58 d-center sshd[99757]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root
+Dec 15 14:26:58 d-center sshd[99757]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:27:00 d-center sshd[99757]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49532 ssh2
+Dec 15 14:27:12 d-center unix_chkpwd[99768]: password check failed for user (root)
+Dec 15 14:27:12 d-center sshd[99757]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:27:14 d-center sshd[99757]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49532 ssh2
+Dec 15 14:27:20 d-center unix_chkpwd[99769]: password check failed for user (root)
+Dec 15 14:27:20 d-center sshd[99757]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Dec 15 14:27:22 d-center sshd[99757]: Failed password for root from fe80::1ca3:529d:5379:b461%em1 port 49532 ssh2
+Dec 15 14:27:22 d-center sshd[99757]: Connection closed by fe80::1ca3:529d:5379:b461%em1 [preauth]
+Dec 15 14:27:22 d-center sshd[99757]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=fe80::1ca3:529d:5379:b461%em1  user=root

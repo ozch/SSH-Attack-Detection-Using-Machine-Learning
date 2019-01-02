@@ -1,0 +1,39 @@
+
+================================= SSH =================================
+Total Dataset : 268 rows
+Train Data = 201
+Test Data = 67
+svm.SVC():
+    [268 rows x columns]
+    columns =['is_private','is_failure','is_root','is_valid','not_valid_count','ip_failure','ip_success','no_failure','first','class']
+	Train Accuracy :  0.995
+    Test Accuracy :  0.9850746268656716
+	Average Train Accuracy : 0.9966666666666667
+    Average Test Accuracy : 0.99
+	confusion_matrix =
+	[[50  0]
+     [ 1 16]]
+GaussianNB():
+    [268 rows x columns]
+    columns =['is_private','is_failure','is_root','is_valid','not_valid_count','ip_failure','ip_success','no_failure','first','td','class']
+	Train Accuracy :  0.77
+    Test Accuracy :  0.7164179104477612
+	Average Train Accuracy : 0.75
+    Average Test Accuracy : 0.7499999999999999
+	confusion_matrix =
+	[[31 19]
+    [ 0 17]]
+RandomForestRegressor():#CHOICE#
+    [268 rows x columns]
+    columns =['is_private','is_failure','is_root','is_valid','not_valid_count','ip_failure','ip_success','no_failure','first','td','class']
+	Train Accuracy :  0.9827562230565984
+    Test Accuracy :  0.9905411764705883
+	Average Train Accuracy : 0.9945593692473225
+    Average Test Accuracy : 0.9880730392156863
+
+	confusion_matrix =
+	[[50  0]
+    [ 0 17]]
+
+
+
