@@ -19,5 +19,5 @@ class KFoldValidation():
             print("Train Accuracy : " + str(model.score(xtrain, ytrain)))
             print("Test Accuracy : " + str(model.score(xtest, ytest)))
 
-        print("Average Train Accuracy : " + str(train_acc / 10))
-        print("Average Test Accuracy : " + str(test_acc / 10))
+        print("Average Train Accuracy : " + str(train_acc / n))
+        print("Average Test Accuracy : " + str(test_acc / n))

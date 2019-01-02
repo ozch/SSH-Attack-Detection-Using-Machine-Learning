@@ -29,14 +29,14 @@ X_train,X_test,y_train,y_test = train_test_split(features,label,shuffle=True,ran
 
 #training model
 print("Training Model..")
-model = GaussianNB()
+model = RandomForestRegressor()
 model.fit(X_train,y_train)
 
 #saving model using pickle
-m_name="gnb"
+m_name="rfr"
 pkl_filename="models/"+model_cat+"_"+m_name+'.pkl'
-with open(pkl_filename, 'wb') as file:
-    pickle.dump(model, file)
+#with open(pkl_filename, 'wb') as file:
+#    pickle.dump(model, file)
 
 #accuracy calculation
 print("Train Accuracy : ", model.score(X_train, y_train))
@@ -58,4 +58,4 @@ except:
     print(cnf_matrix)
 
 kf = KFoldValidation()
-kf.GetAverageScore(10,features,label,GaussianNB(),X_train)
+kf.GetAverageScore(3,features,label,RandomForestRegressor(),X_train)
