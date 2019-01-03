@@ -1,6 +1,7 @@
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import KFold
-
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 class KFoldValidation():
     def GetAverageScore(self,n,features,label,model,X_train):
         kf = KFold(n_splits=n, random_state=None, shuffle=True)
@@ -16,8 +17,8 @@ class KFoldValidation():
             model.fit(xtrain, ytrain)
             train_acc = train_acc + model.score(xtrain, ytrain)
             test_acc = test_acc + model.score(xtest, ytest)
-            print("Train Accuracy : " + str(model.score(xtrain, ytrain)))
-            print("Test Accuracy : " + str(model.score(xtest, ytest)))
+            #print("Train Accuracy : " + str(model.score(xtrain, ytrain)))
+            #print("Test Accuracy : " + str(model.score(xtest, ytest)))
 
         print("Average Train Accuracy : " + str(train_acc / n))
         print("Average Test Accuracy : " + str(test_acc / n))

@@ -24,13 +24,13 @@ while True:
     if p.poll(1):
         temp = f.stdout.readline()
         temp = str(temp.decode("utf-8"))
-        print("=========================================")
         #print(temp)
         if str(temp).find("ssh") != -1:
             dict = up.SSHProcessed(temp)
             if dict == {}:
                 continue
             if dict != temp_dict:
+                print("=========================================")
                 #print(dict)
                 perdiction = ssh_p.predictSSH(ssh_p.prepareDict(dict))
                 print("is Attack : "+str(perdiction))

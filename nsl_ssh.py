@@ -8,7 +8,9 @@ import pickle
 import pandas as pd
 import numpy as np
 from k_fold_validation import KFoldValidation
-
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
 model_cat = "ssh"
 
 #reading csv data
@@ -21,7 +23,7 @@ df = pd.DataFrame(csv,columns=colum)
 df.pop('user')
 df.pop('ts')
 df.pop('td')
-print(df)
+#print(df)
 label = np.array(df.pop("class"))
 features = np.array(df)
 X_train,X_test,y_train,y_test = train_test_split(features,label,shuffle=True,random_state=22)
