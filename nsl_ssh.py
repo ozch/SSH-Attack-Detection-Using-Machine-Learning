@@ -7,7 +7,6 @@ from sklearn.svm import *
 import pickle
 import pandas as pd
 import numpy as np
-
 from k_fold_validation import KFoldValidation
 
 model_cat = "ssh"
